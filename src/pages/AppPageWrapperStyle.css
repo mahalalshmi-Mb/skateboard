@@ -1,0 +1,40 @@
+.dashboard {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/*Content*/
+.db .content {
+  margin: 6px 0 0 10px;
+  width: calc(100% - 20px);
+  height: calc(100% - 7rem - 20px);
+  z-index: 5;
+}
+
+/*Footer*/
+.db .footer-container {
+  position: absolute;
+  margin: 0 auto;
+  bottom: 0;
+  right: 1rem;
+  width: calc(100% - 6rem);
+  height: 3rem;
+  line-height: 3rem;
+  text-align: center;
+  background: #fff;
+  border-radius: 10px 10px 0 0;
+  box-shadow: 0 0 6px 0 #888;
+}
+
+@media (max-width: 767px) {
+  .sos-footer-wrapper {
+    padding-bottom: 60px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .sos-footer-wrapper {
+    padding-bottom: 200px;
+  }
+}

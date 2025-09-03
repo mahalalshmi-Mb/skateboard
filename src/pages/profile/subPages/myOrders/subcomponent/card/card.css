@@ -1,0 +1,112 @@
+.booking-card-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  min-height: 100pt;
+  padding: 10pt 0pt;
+  border: 1pt solid #e1faf2;
+  margin: 10pt 0pt;
+  margin-top: 0pt;
+  background-color: #fff;
+}
+
+.card-noBackground {
+  border: 0pt;
+  background-color: transparent;
+  min-height: 0;
+  padding-top: 10pt;
+  margin: 0pt;
+}
+
+.booking-card-container .booking-card-content {
+  width: 100%;
+}
+
+.booking-card-container .image-wrapper {
+  border-radius: 10pt;
+  float: right;
+  padding: 6px 16px;
+}
+.booking-card-container .card-info-wrapper {
+  padding: 0px 16px;
+}
+.booking-card-container .card-title-text {
+  font-size: 14px;
+  margin-bottom: 5pt;
+  text-transform: none;
+  margin: 3pt 0pt;
+}
+
+.booking-card-container .card-text {
+  font-size: 14px;
+  margin: 3pt 0pt;
+  color: rgb(143, 145, 146);
+  text-transform: capitalize;
+}
+
+.booking-card-container .card-subHeader-text {
+  color: #47b896;
+}
+
+.booking-card-container .card-text-value {
+  color: #000;
+}
+
+.booking-card-container .text-row {
+  display: flex;
+  align-items: center;
+}
+.booking-card-container .text-label {
+  font-size: 14px;
+  margin: 3pt 0pt;
+  color: #273135;
+  text-transform: capitalize;
+  opacity: 0.7;
+}
+.booking-card-container .text-value {
+  font-size: 14px;
+  margin: 3pt 0pt;
+  color: #273135;
+}
+.booking-card-container .item-box {
+  border: 1px solid #dddddd;
+  padding: 12px;
+  border-radius: 8px;
+}
+.booking-card-container .item-wrapper {
+  width: 100%;
+  padding: 8px 0px;
+}
+.booking-card-container .details-button-wrapper {
+  font-style: normal;
+  font-family: "ManropeRegular";
+  font-size: 16px;
+  color: #037b79;
+  padding: 12px 0px 6px 0px;
+}
+
+.booking-card-container .details-button-wrapper:after {
+  background-image: url("../../../../../../assets/images/NewServiceLanding/arrowRightGreen.svg");
+  content: "";
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  height: 18px;
+  margin-left: 4px;
+  vertical-align: middle;
+  width: 18px;
+}
+.booking-card-container .action-button-container {
+  width: 100%;
+  padding: 24px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.booking-card-container .action-button {
+  padding: 12px 16px;
+  background-color: #04adaa;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 8px;
+}

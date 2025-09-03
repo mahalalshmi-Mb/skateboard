@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.grecaptcha-badge {
+  visibility: hidden;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+#corover-cb-widget {
+  bottom: 80px !important;
+}
+
+/* Manrope */
+@font-face {
+  font-family: "Manrope";
+  src: local("ManropeRegular"),
+    url("./assets/fonts/Manrope/manrope-regular.otf") format("opentype");
+  font-weight: 300 400;
+}
+@font-face {
+  font-family: "Manrope";
+  src: local("ManropeMedium"),
+    url("./assets/fonts/Manrope/manrope-medium.otf") format("opentype");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Manrope";
+  src: local("ManropeSemiBold"),
+    url("./assets/fonts/Manrope/manrope-semibold.otf") format("opentype");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Manrope";
+  src: local("ManropeBold"),
+    url("./assets/fonts/Manrope/manrope-bold.otf") format("opentype");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Manrope";
+  src: local("ManropeExtraBold"),
+    url("./assets/fonts/Manrope/manrope-extrabold.otf") format("opentype");
+  font-weight: 800 900;
+}
+
+/* Inter */
+@font-face {
+  font-family: "Inter";
+  src: local("InterRegular"),
+    url("./assets/fonts/Inter/inter-regular.otf") format("opentype");
+  font-weight: 300 900;
+}
+
+/* Poppins */
+@font-face {
+  font-family: "Poppins";
+  src: local("PoppinsRegular"),
+    url("./assets/fonts/Poppins/Poppins-Regular.otf") format("opentype");
+  font-weight: 300 500;
+}
+@font-face {
+  font-family: "Poppins";
+  src: local("PoppinsMedium"),
+    url("./assets/fonts/Poppins/Poppins-Medium.otf") format("opentype");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Poppins";
+  src: local("PoppinsBold"),
+    url("./assets/fonts/Poppins/Poppins-Bold.otf") format("opentype");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Poppins";
+  src: local("PoppinsExtraBold"),
+    url("./assets/fonts/Poppins/Poppins-ExtraBold.otf") format("opentype");
+  font-weight: 800 900;
+}
+
+/* Frutiger */
+@font-face {
+  font-family: "Frutiger";
+  src: url("./assets/fonts/Frutiger/fontsFrutigerLTStd-Light.otf")
+    format("opentype");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Frutiger";
+  src: url("./assets/fonts/Frutiger/fontsFrutigerLTStd-Roman.otf")
+    format("opentype");
+  font-weight: 400 600;
+}
+@font-face {
+  font-family: "Frutiger";
+  src: url("./assets/fonts/Frutiger/fontsFrutigerLTStd-Bold.otf")
+    format("opentype");
+  font-weight: 700 800;
+}
+@font-face {
+  font-family: "Frutiger";
+  src: url("./assets/fonts/Frutiger/fontsFrutigerLTStd-Black.otf")
+    format("opentype");
+  font-weight: 900;
+}
+
+/* CPH */
+@font-face {
+  font-family: "Cph";
+  src: url("./assets/fonts/CPHAirfield/cph-positive.otf") format("opentype");
+  font-weight: 300 900;
+}
+@font-face {
+  font-family: "Cph-Negative";
+  src: url("./assets/fonts/CPHAirfield/cph-negative.otf") format("opentype");
+  font-weight: 300 900;
+}
+
+/* CenturyGothic */
+@font-face {
+  font-family: "CenturyGothic";
+  src: url("./assets/fonts/CenturyGothic/gothic-regular.TTF") format("truetype");
+  font-weight: 300 600;
+}
+@font-face {
+  font-family: "CenturyGothic";
+  src: url("./assets/fonts/CenturyGothic/gothic-bold.TTF") format("truetype");
+  font-weight: 700 900;
+}

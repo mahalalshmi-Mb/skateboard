@@ -1,0 +1,114 @@
+.custom-flight-alert-wrapper .flight-track-info {
+  float: right;
+  width: 80px;
+  margin-right: 6px;
+  height: 0;
+}
+.custom-flight-alert-tel-input {
+  outline: none !important;
+  border-width: 0 !important;
+  background-color: aliceblue !important;
+  width: 215px !important;
+}
+.custom-flight-alert-wrapper .MuiBox-root .form-control:focus {
+  box-shadow: none !important;
+}
+
+.custom-flight-alert-wrapper-email-input {
+  border-width: 0;
+  background-color: aliceblue;
+  width: 300px;
+  font-size: 12px;
+}
+
+.custom-flight-alert-wrapper-phone-number-input {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.custom-flight-alert-wrapper-button-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.custom-flight-alert-wrapper .MuiBox-root input:focus {
+  outline: none !important;
+}
+
+.custom-flight-alert-wrapper-verify-button {
+  margin-left: 5px;
+}
+.custom-flight-alert-wrapper-flight-button {
+  background-color: #056362;
+}
+
+.custom-flight-alert-wrapper-button-disabled {
+  background-color: #939393 !important;
+  cursor: not-allowed !important;
+}
+.custom-flight-alert-wrapper .generic-disabled-button {
+  background-color: #4d6b6d;
+  color: #698082;
+  cursor: not-allowed !important;
+}
+
+@media screen and (max-width: 430px) {
+  .custom-flight-alert-wrapper-email-input {
+    width: 250px;
+  }
+  .custom-flight-alert-tel-input {
+    width: 180px !important;
+  }
+
+  .custom-flight-alert-wrapper .flight-track-info {
+    width: 80px;
+    margin-right: 6px;
+    height: 0;
+    position: absolute;
+    right: 0;
+  }
+
+  .custom-flight-alert-wrapper .trackIcon {
+    height: 25px;
+  }
+  .custom-flight-alert-wrapper .offTrack {
+    right: 10px;
+  }
+}
+
+.custom-flight-alert-wrapper-common-ui-button {
+  background-color: #056362;
+  color: #fff;
+  font-size: 14px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 80px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .custom-flight-alert-wrapper .offTrack {
+    position: relative;
+    right: 22px;
+  }
+}
+
+.custom-flight-alert-wrapper .flight-alert-footer {
+  height: 95px;
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  background-color: rgb(147, 147, 147);
+}

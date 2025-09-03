@@ -1,0 +1,33 @@
+{
+  "data": {
+    "default": {
+      "id": "T_001",
+      "name": "Default",
+      "colors": {
+        "body": {
+          "primary": "#FFFFFF",
+          "greyLight": "#F5F5F5",
+          "greyDark": "#F4F5F5"
+        },
+        "text": {
+          "primary": "#000000",
+          "secondary": "#ffffff",
+          "tertiary": "#04ADAA",
+          "primaryTwo": "#222222",
+          "inactive": "#646464"
+        },
+        "button": {
+          "primary": "#04ADAA",
+          "secondary": "#ffffff",
+          "primaryInactive": "#024544",
+          "tertiary": "#7CD1CF",
+          "secondaryDark": "#F4F5F5"
+        }
+      },
+      "font": {
+        "primary": "Manrope",
+        "secondary": "Inter"
+      }
+    }
+  }
+}

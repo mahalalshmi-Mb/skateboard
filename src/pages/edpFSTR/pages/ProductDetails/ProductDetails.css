@@ -1,0 +1,18 @@
+.product-details-page-container {
+}
+.product-details-page-container .slick-dots {
+  bottom: 16px;
+}
+.product-details-page-container .slick-dots li button {
+  width: 56px;
+  height: 5px;
+}
+.product-details-page-container .slick-dots li.slick-active button:before {
+  color: #04adaa;
+}
+.product-details-page-container .product-details-read-more-less-button {
+  color: #04adaa;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+}

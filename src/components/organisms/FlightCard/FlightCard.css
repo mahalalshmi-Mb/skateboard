@@ -1,0 +1,464 @@
+.flight-card-wrapper {
+  width: 100%;
+  height: 230px;
+  padding: 1rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-image: radial-gradient(
+      circle at -3%,
+      #0000 25px,
+      #fff 0,
+      #fff 50%,
+      #0000 85%,
+      #0000 100%
+    ),
+    radial-gradient(
+      circle at 103%,
+      #0000 25px,
+      #fff 0,
+      #fff 50%,
+      #0000 85%,
+      #0000 100%
+    );
+}
+
+.flight-card-wrapper .flight-info-container {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.flight-card-wrapper .bottom-border {
+  opacity: 0.1;
+  border-bottom: 2px dashed #273135;
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+}
+
+.flight-card-wrapper .flight-src-dest-container {
+  width: 60%;
+  height: 100%;
+  position: relative;
+  padding: 0px 10px;
+}
+
+.flight-card-wrapper .airline-date-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flight-card-wrapper .airline-container {
+  display: flex;
+  align-items: center;
+}
+
+.flight-card-wrapper .airline-tail-image {
+  width: 24px;
+  height: 24px;
+  margin-right: 5px;
+}
+
+.flight-card-wrapper .flight-airline-text {
+  font-style: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #273135;
+}
+
+.flight-card-wrapper .flight-date-container {
+  font-style: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #273135;
+}
+
+.flight-card-wrapper .src-dest-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flight-card-wrapper .src-container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+}
+
+.flight-card-wrapper .src-text {
+  font-style: normal;
+  font-size: 28px;
+  line-height: 38px;
+  color: #273135;
+}
+
+.flight-card-wrapper .terminal-text {
+  font-style: normal;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.04em;
+  color: #273135;
+  opacity: 0.7;
+}
+
+.flight-card-wrapper .arr-dep-time-text {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.04em;
+  color: #273135;
+}
+
+.flight-card-wrapper .flight-icon-container {
+  display: flex;
+  align-items: center;
+}
+
+.flight-card-wrapper .flight-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.flight-card-wrapper .dest-container {
+  padding-top: 10px;
+}
+
+.flight-card-wrapper .vertical-divider {
+  opacity: 0.1;
+  border-right: 2px dashed #273135;
+  position: absolute;
+  height: 90%;
+  top: 5px;
+  right: 0px;
+}
+
+.flight-card-wrapper .flight-meta-data-container {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  height: 100%;
+  padding: 20px 10px 0px 10px;
+}
+
+.flight-card-wrapper .meta-label-value-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.flight-card-wrapper .label-text {
+  font-style: normal;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #273135;
+  opacity: 0.6;
+  white-space: nowrap !important;
+}
+
+.flight-card-wrapper .value-text {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: #273135;
+}
+
+.flight-card-wrapper .check-in {
+  font-size: 12px;
+}
+
+.flight-card-wrapper .meta-label-value-divider {
+  display: none;
+}
+
+.flight-card-wrapper .flight-action-container {
+  width: 100%;
+  height: 40%;
+  padding-top: 10px;
+}
+
+.flight-card-wrapper .until-flight-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(4, 173, 170, 0.1);
+  border-radius: 8px;
+  padding: 8px 12px;
+}
+
+.flight-card-wrapper .until-flight-text {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #273135;
+}
+
+.flight-card-wrapper .action-item-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 10px;
+}
+
+.flight-card-wrapper .track-flight-button {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #037b79;
+  cursor: pointer;
+}
+
+.flight-card-wrapper .remove-flight-button {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: red;
+  cursor: pointer;
+}
+
+.flight-card-wrapper .status-wrapper {
+  display: inline-flex;
+  padding: 2px 8px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+  line-height: 22px;
+}
+
+.flight-card-wrapper .ontime,
+.flight-card-wrapper .arrived {
+  background-color: #a2d7d6;
+  color: #273135;
+}
+
+.flight-card-wrapper .arriving-early {
+  background-color: #00b5ad;
+}
+
+.flight-card-wrapper .security,
+.flight-card-wrapper .immigration {
+  background-color: #003aa7;
+  color: #fff;
+}
+
+.flight-card-wrapper .boarding,
+.flight-card-wrapper .departed {
+  background-color: #0a9132;
+  color: #fff;
+}
+
+.flight-card-wrapper .diverted,
+.flight-card-wrapper .gate-closed,
+.flight-card-wrapper .cancelled {
+  background-color: #ba2c43;
+  color: #fff;
+}
+
+.flight-card-wrapper .final-call,
+.flight-card-wrapper .rescheduled {
+  background-color: #e58e64;
+  color: #fff;
+}
+
+.flight-card-wrapper .delayed {
+  background-color: #ff795c;
+  color: #fff;
+}
+
+@media screen and (max-width: 767px) {
+  .flight-card-wrapper {
+    background-image: radial-gradient(
+        circle at -3%,
+        #0000 25px,
+        #fff 0,
+        #fff 50%,
+        #0000 85%,
+        #0000 100%
+      ),
+      radial-gradient(
+        circle at 103%,
+        #0000 25px,
+        #fff 0,
+        #fff 50%,
+        #0000 85%,
+        #0000 100%
+      );
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .flight-card-wrapper {
+    background-image: radial-gradient(
+        circle at -3%,
+        #0000 30px,
+        #fff 0,
+        #fff 50%,
+        #0000 85%,
+        #0000 100%
+      ),
+      radial-gradient(
+        circle at 103%,
+        #0000 30px,
+        #fff 0,
+        #fff 50%,
+        #0000 85%,
+        #0000 100%
+      );
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .flight-card-wrapper {
+    background-image: radial-gradient(
+        circle at -3%,
+        #0000 25px,
+        #fff 0,
+        #fff 50%,
+        #0000 85%,
+        #0000 100%
+      ),
+      radial-gradient(
+        circle at 103%,
+        #0000 25px,
+        #fff 0,
+        #fff 50%,
+        #0000 85%,
+        #0000 100%
+      );
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .flight-card-wrapper {
+    height: 366px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .flight-card-wrapper .flight-info-container {
+    flex-direction: column;
+    height: 75%;
+  }
+  .flight-card-wrapper .bottom-border {
+    display: none;
+  }
+  .flight-card-wrapper .vertical-divider {
+    border-bottom: 2px dashed #273135;
+    border-right: none;
+    width: 100%;
+    position: relative;
+    height: 1px;
+    top: 0px;
+  }
+  .flight-card-wrapper .flight-src-dest-container {
+    width: 100%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .flight-card-wrapper .flight-meta-data-container {
+    width: 100%;
+    height: 25%;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding: 0px 10px;
+  }
+  .flight-card-wrapper .meta-label-value-container {
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 7px 0px;
+    height: 80%;
+  }
+  .flight-card-wrapper .meta-label-value-divider {
+    height: 80%;
+    display: block;
+    opacity: 0.3;
+    border-right: 1px solid #273135;
+  }
+  .flight-card-wrapper .label-text {
+    color: #273135;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    opacity: 0.7;
+    white-space: nowrap !important;
+  }
+  .flight-card-wrapper .value-text {
+    color: #273135;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+  }
+  .flight-card-wrapper .check-in {
+    font-size: 12px;
+    max-width: 60px;
+    text-align: center;
+  }
+  .flight-card-wrapper .flight-action-container {
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 0px;
+  }
+
+  .flight-card-wrapper .src-dest-wrapper {
+    height: 50%;
+  }
+
+  .flight-card-wrapper .src-container {
+    padding-top: 0px;
+    justify-content: space-between;
+  }
+
+  .flight-card-wrapper .src-container .src-text {
+    display: flex;
+    height: 50%;
+  }
+
+  .flight-card-wrapper .src-container .src-content {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .flight-card-wrapper .action-item-container {
+    padding-top: 10px;
+  }
+  .flight-card-wrapper .dest-container {
+    padding-top: 0px;
+    justify-content: space-between;
+  }
+  .flight-card-wrapper .remove-flight-button {
+    font-size: 14px;
+  }
+
+  .flight-card-wrapper .track-flight-button {
+    font-size: 14px;
+  }
+  .flight-card-wrapper .status-wrapper {
+    font-size: 10px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+}

@@ -1,0 +1,23 @@
+.personal-details-container {
+}
+.personal-details-container .MuiTextField-root {
+  width: 100%;
+}
+.personal-details-container .MuiOutlinedInput-input {
+  font-size: 16px;
+  font-family: "ManropeMedium";
+}
+.personal-details-container
+  .dob-picker
+  fieldset.MuiOutlinedInput-notchedOutline {
+  border-color: #dcdcdc;
+}
+.personal-details-container
+  .dob-picker
+  .Mui-focused
+  fieldset.MuiOutlinedInput-notchedOutline {
+  border-color: #dcdcdc;
+}
+.personal-details-container .Mui-focused {
+  color: var(--text-black200) !important;
+}

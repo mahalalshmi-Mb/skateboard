@@ -1,0 +1,56 @@
+.login-without-otp-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.login-without-otp-container .react-tel-input .form-control {
+  background: transparent !important;
+  border: none !important;
+  height: 54px !important;
+  padding-left: 84px !important;
+  font-weight: 300;
+}
+.login-without-otp-container .react-tel-input input:focus {
+  /* border: 1px solid #273135 !important; */
+  box-shadow: none !important;
+  font-family: Manrope;
+}
+.login-without-otp-container .react-tel-input .flag-dropdown {
+  border: none;
+  border-right: 1px solid var(--text-black800);
+  background: transparent !important;
+}
+.login-without-otp-container .react-tel-input .flag-dropdown:focus {
+  /* border: 1px solid #273135 !important; */
+  box-shadow: none !important;
+  border: none !important;
+  background: transparent !important;
+}
+.login-without-otp-container .react-tel-input .flag-dropdown.open,
+.login-without-otp-container
+  .react-tel-input
+  .flag-dropdown.open
+  .selected-flag,
+.login-without-otp-container .react-tel-input .selected-flag:hover,
+.login-without-otp-container .react-tel-input .selected-flag:focus {
+  background: transparent !important;
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .login-without-otp-container {
+    padding-bottom: 250px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .login-without-otp-container {
+    padding-bottom: 0px;
+    -ms-overflow-style: none; /* removes horizontacl scroll on IE 11 */
+    scrollbar-width: none; /* removes horizontacl scroll on Firefox 64 */
+  }
+  .login-without-otp-container::-webkit-scrollbar {
+    width: 0; /* Remove scrollbar space */
+    background: transparent; /* Optional: just make scrollbar invisible */
+    scrollbar-width: none;
+  }
+}

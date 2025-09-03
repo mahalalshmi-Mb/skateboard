@@ -1,0 +1,136 @@
+.flight-result-card-wrapper {
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  margin-top: 1rem;
+}
+
+.flight-result-card-wrapper .flight-details-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.flight-result-card-wrapper .flight-meta-details {
+  display: flex;
+}
+
+.flight-result-card-wrapper .airline-image {
+  width: 32px;
+  height: 32px;
+}
+
+.flight-result-card-wrapper .flight-name-from-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+}
+
+.flight-result-card-wrapper .flight-name-code {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #273135;
+}
+
+.flight-result-card-wrapper .flight-to-from {
+  font-style: normal;
+  font-size: 13px;
+  line-height: 16px;
+  color: #273135;
+}
+
+.flight-result-card-wrapper .flight-time {
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  text-align: right;
+  color: #273135;
+}
+
+/* TRANSIT FLIGHTS MODAL */
+.flight-result-transit-wrapper .transit-flights-container {
+  display: flex;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.3);
+
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  height: 300px;
+}
+
+.transit-flights-container .transit-flights {
+  width: 100%;
+}
+
+.transit-flights-container .modal-content-container {
+  width: 100%;
+  height: 100%;
+  padding: 2rem;
+}
+
+.transit-flights-container .transit-modal-header {
+  text-align: center;
+  font-size: 18px;
+}
+
+.transit-flights-container .transit-modal-sub-header {
+  text-align: center;
+  font-size: 16px;
+}
+
+.transit-flights-container .transit-flight-card-container {
+  width: calc(100% - 2rem);
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.transit-flights-container .transit-submit-button-container {
+  width: 100%;
+  height: 2.5rem;
+  background-color: #fff;
+  margin-bottom: 1rem;
+}
+
+.transit-flights-container .transit-submit-button-container .disbled {
+  background-color: #ddd;
+}
+
+.transit-flights-container .transit-submit-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: calc(100% - 4.5rem);
+  margin-left: 1rem;
+  margin: auto;
+  height: 100%;
+  background-color: #04adaa;
+  border-radius: 1rem;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 14px;
+}
+
+.transit-flights-container .transit-not-now-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: calc(100% - 4.5rem);
+  margin-left: 1rem;
+  margin: auto;
+  height: 100%;
+  border-radius: 1rem;
+  border: none;
+  outline: none;
+  color: #04adaa;
+  font-size: 14px;
+  background-color: #fff;
+}

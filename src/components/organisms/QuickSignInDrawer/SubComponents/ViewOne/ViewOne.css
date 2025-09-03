@@ -1,0 +1,32 @@
+.view-one-container {
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  padding-bottom: 30px;
+}
+.view-one-container .react-tel-input .form-control {
+  background-color: #fff !important;
+  border: 1px solid #dcdcdc !important;
+}
+.view-one-container .react-tel-input input:focus {
+  /* border: 1px solid #273135 !important; */
+  box-shadow: none !important;
+  font-family: Manrope;
+}
+.view-one-container .react-tel-input .flag-dropdown:focus {
+  /* border: 1px solid #273135 !important; */
+  box-shadow: none !important;
+}
+
+@media screen and (min-width: 1024px) {
+  .view-one-container {
+    padding-bottom: 0px;
+    -ms-overflow-style: none; /* removes horizontacl scroll on IE 11 */
+    scrollbar-width: none; /* removes horizontacl scroll on Firefox 64 */
+  }
+  .view-one-container::-webkit-scrollbar {
+    width: 0; /* Remove scrollbar space */
+    background: transparent; /* Optional: just make scrollbar invisible */
+    scrollbar-width: none;
+  }
+}

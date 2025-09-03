@@ -1,0 +1,133 @@
+/* Common */
+.footer-links .content-wrapper {
+  padding: 24px;
+  position: relative;
+  font-weight: 300;
+  font-family: var(--primary-font), var(--font-fallback);
+}
+.footer-links .header {
+  color: var(--body-primary);
+  line-height: 1.125;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: var(--font-secondary), var(--font-fallback);
+}
+.footer-links .aboutpage .title {
+  font-size: 20px;
+  line-height: 1.3;
+  margin: 20px 0;
+}
+
+.footer-links .aboutpage .description {
+  font-size: 18px;
+  line-height: 1.3;
+  margin: 0 0 20px;
+}
+.footer-links .sub-header {
+  text-decoration: underline;
+  font-size: 22px;
+}
+.footer-links .block-table {
+  padding-left: 40px;
+  overflow-x: auto;
+}
+.footer-links .block-table .table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.footer-links .block-table table td {
+  border: 1px solid;
+  padding: 10px;
+  font-size: 18px;
+}
+
+/* ABOUT US */
+.footer-links .aboutpage {
+  width: 100%;
+}
+.footer-links .aboutpage .article {
+  padding: 24px 0;
+}
+.footer-links .aboutpage .learn-more-button {
+  background-color: var(--body-primary);
+  color: var(--body-secondary);
+  padding: 8px 16px;
+  font-weight: 500;
+  font-size: 14px;
+  border-radius: 3px;
+  box-shadow: none;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  transition: transform 0.2s ease;
+  cursor: pointer;
+}
+.footer-links .aboutpage .learn-more-button:hover {
+  transform: scale(1.05);
+}
+.footer-links .aboutpage .learn-more-button:hover {
+  text-decoration: none;
+}
+
+/* FAQ */
+.footer-links .faq {
+  width: 100%;
+}
+
+.footer-links .faq .article {
+  padding: 24px 0;
+}
+.footer-links .faq ul {
+  font-size: 14px;
+  line-height: 1.3;
+  margin: 0 0 20px 20px;
+  padding-left: 20px;
+}
+
+.footer-links .faq li {
+  margin-bottom: 10px;
+}
+
+.footer-links .faq a {
+  transition: all 200ms ease-out;
+  color: var(--text-gray300);
+  text-decoration: none;
+  word-break: break-word;
+  cursor: pointer;
+}
+
+/* ABOUT US */
+.footer-links .privacyPolicy {
+  width: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+  .footer-links .aboutpage .article {
+    padding: 32px 0;
+  }
+
+  .footer-links .header {
+    font-size: 36px;
+  }
+
+  .footer-links .sub-header {
+    font-size: 32px;
+  }
+
+  .footer-links .title,
+  .footer-links .description {
+    font-size: 16px;
+  }
+
+  .footer-links .faq .learn-more-button {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+  .footer-links .faq .article {
+    padding: 32px 0;
+  }
+  .footer-links .faq .learn-more-button {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}

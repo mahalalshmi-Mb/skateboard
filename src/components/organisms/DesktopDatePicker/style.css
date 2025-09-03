@@ -1,0 +1,7 @@
+.MuiPopper-root {
+  z-index: 999999 !important; /* Ensure it's higher than modal z-index */
+}
+
+.css-u0l7ck-MuiPaper-root-MuiPickersPopper-paper {
+  border-radius: 8px;
+}

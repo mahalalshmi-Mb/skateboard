@@ -1,0 +1,102 @@
+.markerPopupContainer {
+  z-index: 999;
+  background-color: black;
+  width: 100%;
+}
+
+.leaflet-popup-content-wrapper {
+  background-color: black !important;
+  z-index: 999;
+  width: 100%;
+}
+
+.leaflet-popup-content {
+  margin: 0px !important;
+  padding: 5px 8px;
+}
+
+.srcDstView {
+  flex-direction: row;
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  margin: 0px 24px;
+  margin-top: 12px;
+}
+
+.dstView {
+  text-align: right;
+}
+
+.planeIconView {
+  left: 50%;
+  width: 20%;
+}
+
+.srcdstText {
+  text-align: center;
+  font-weight: bolder;
+  color: black;
+  margin-top: 8px;
+  font-size: medium;
+}
+
+.srcdestTextView {
+  flex-direction: column;
+  align-items: center;
+}
+
+.municipalityView {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+}
+
+.distanceView {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  height: 15px;
+  align-items: center;
+}
+
+.arrivalTimeView {
+  background: rgba(4, 173, 170, 0.1);
+  margin: 5%;
+  padding: 2%;
+  vertical-align: middle;
+}
+
+.departArriavalRemainingKMMView {
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0% 5%;
+  display: flex;
+}
+
+.flightIdCloseIconView {
+  justify-content: space-between;
+  flex-direction: row;
+  display: flex;
+  margin: 0px 24px;
+  margin-top: 16px;
+}
+
+.flightTravelProgressView {
+  background-color: burlywood;
+  width: auto;
+  height: 100px;
+}
+
+.trackerModalStyles {
+  position: absolute;
+  bottom: 0;
+  background: white;
+  width: 30%;
+}
+
+@media only screen and (max-width: 600px) {
+  .trackerModalStyles {
+    width: 100%;
+  }
+}

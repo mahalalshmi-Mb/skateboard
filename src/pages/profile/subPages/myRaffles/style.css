@@ -1,0 +1,18 @@
+.daily-bumper-prize .slick-slide > div {
+  margin: 0 10px;
+}
+.daily-bumper-prize .slick-list {
+  margin: 0 -10px;
+}
+
+.daily-prize-layout ::-webkit-scrollbar-track {
+  margin-right: 5px;
+}
+.daily-prize-layout ::-webkit-scrollbar-thumb {
+  background-color: #04adaa;
+}
+
+.daily-prize-layout ::-webkit-scrollbar {
+  height: 8px;
+  display: block;
+}

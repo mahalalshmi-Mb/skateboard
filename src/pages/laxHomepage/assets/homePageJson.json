@@ -1,0 +1,150 @@
+{
+  "data": {
+    "headerWelTxt": "Welcome To Lax",
+    "headerNavList": [
+      {
+        "id": "directory",
+        "title": "Directory",
+        "redirectUrl": "/directory",
+        "logo": "directory"
+      },
+      {
+        "id": "order",
+        "title": "Order",
+        "redirectUrl": "/takeaway-selection?domain=Food%20and%20Beverages",
+        "logo": "order"
+      },
+      {
+        "id": "offers",
+        "title": "OFFERS",
+        "redirectUrl": "/offers",
+        "logo": "offer"
+      },
+      {
+        "id": "maps",
+        "title": "Maps",
+        "redirectUrl": "https://www.flylax.com/map?nocache=1738585996715",
+        "logo": "maps",
+        "isExternal": true
+      },
+      {
+        "id": "flights",
+        "title": "Flights",
+        "redirectUrl": "https://www.flylax.com/en/flight-search-list?nocache=1738586312756",
+        "logo": "flight",
+        "isExternal": true
+      },
+      {
+        "id": "lax-info",
+        "title": "LAX Info",
+        "redirectUrl": "https://www.flylax.com/?nocache=1738586350154",
+        "logo": "laxInfo",
+        "isExternal": true
+      }
+    ],
+    "bannerData": [
+      {
+        "imageUrl": "https://www.laxshopdine.com/wp-content/uploads/2021/03/hero-burger_800.png",
+        "title": "INTRODUCING",
+        "description": "Safe, convenient mobile ordering & no-contact pickup at LAX",
+        "buttonTitle": "START YOUR ORDER",
+        "buttonLink": "/",
+        "imageRight": false
+      }
+    ],
+    "introduction": {
+      "icon": "",
+      "title": "LAX AT YOUR FINGERTIPS",
+      "description": "LAX offers the best in highly curated shopping and dining, from laid-back to trendy, with a hip, eclectic vibe. Rooted in contemporary Hollywood culture, a shopping trip through LAX is synonymous with LA’s casual-chic style."
+    },
+    "categoryTitle": "Over 180 places to discover",
+    "categoryList": [
+      {
+        "title": "Order Now",
+        "redirectLink": "/",
+        "image": "https://laxurwstage.wpengine.com/wp-content/uploads/2022/08/Dine-1.jpg"
+      },
+      {
+        "title": "LAX Directory",
+        "redirectLink": "/",
+        "image": "https://laxurwstage.wpengine.com/wp-content/uploads/2022/08/Shop-1.jpg"
+      },
+      {
+        "title": "Terminal Maps",
+        "redirectLink": "/",
+        "image": "https://laxurwstage.wpengine.com/wp-content/uploads/2020/07/image-terminal-maps.png"
+      },
+      {
+        "title": "Browse Products",
+        "redirectLink": "/",
+        "image": "https://laxurwstage.wpengine.com/wp-content/uploads/2020/07/image-browse-products.png"
+      }
+    ],
+    "retailersList": [
+      {
+        "imageSet": "https://laxurwstage.wpengine.com/wp-content/uploads/2020/08/sammys-pizza-logo-2.jpg 500w, https://laxurwstage.wpengine.com/wp-content/uploads/2020/08/sammys-pizza-logo-2-300x300.jpg 300w, https://laxurwstage.wpengine.com/wp-content/uploads/2020/08/sammys-pizza-logo-2-150x150.jpg 150w, https://laxurwstage.wpengine.com/wp-content/uploads/2020/08/sammys-pizza-logo-2-195x195.jpg 195w, https://laxurwstage.wpengine.com/wp-content/uploads/2020/08/sammys-pizza-logo-2-200x200.jpg 200w, https://laxurwstage.wpengine.com/wp-content/uploads/2020/08/sammys-pizza-logo-2-80x80.jpg 80w, https://laxurwstage.wpengine.com/wp-content/uploads/2020/08/sammys-pizza-logo-2-400x400.jpg 400w, https://laxurwstage.wpengine.com/wp-content/uploads/2020/08/sammys-pizza-logo-2-250x250.jpg 250w, https://laxurwstage.wpengine.com/wp-content/uploads/2020/08/sammys-pizza-logo-2-100x100.jpg 100w",
+        "redirectUrl": "/"
+      },
+      {
+        "imageSet": "https://laxurwstage.wpengine.com/wp-content/uploads/2020/08/asian-street-eats1-1.jpg 500w, https://laxurwstage.wpengine.com/wp-content/uploads/2020/08/asian-street-eats1-1-300x300.jpg 300w, https://laxurwstage.wpengine.com/wp-content/uploads/2020/08/asian-street-eats1-1-150x150.jpg 150w, https://laxurwstage.wpengine.com/wp-content/uploads/2020/08/asian-street-eats1-1-195x195.jpg 195w, https://laxurwstage.wpengine.com/wp-content/uploads/2020/08/asian-street-eats1-1-200x200.jpg 200w, https://laxurwstage.wpengine.com/wp-content/uploads/2020/08/asian-street-eats1-1-80x80.jpg 80w, https://laxurwstage.wpengine.com/wp-content/uploads/2020/08/asian-street-eats1-1-400x400.jpg 400w, https://laxurwstage.wpengine.com/wp-content/uploads/2020/08/asian-street-eats1-1-250x250.jpg 250w, https://laxurwstage.wpengine.com/wp-content/uploads/2020/08/asian-street-eats1-1-100x100.jpg 100w",
+        "redirectUrl": "/"
+      },
+      {
+        "imageSet": "https://laxurwstage.wpengine.com/wp-content/uploads/2020/08/BarneysBeaneryLogo-1.jpg 500w, https://laxurwstage.wpengine.com/wp-content/uploads/2020/08/BarneysBeaneryLogo-1-300x300.jpg 300w, https://laxurwstage.wpengine.com/wp-content/uploads/2020/08/BarneysBeaneryLogo-1-150x150.jpg 150w, https://laxurwstage.wpengine.com/wp-content/uploads/2020/08/BarneysBeaneryLogo-1-195x195.jpg 195w, https://laxurwstage.wpengine.com/wp-content/uploads/2020/08/BarneysBeaneryLogo-1-200x200.jpg 200w, https://laxurwstage.wpengine.com/wp-content/uploads/2020/08/BarneysBeaneryLogo-1-80x80.jpg 80w, https://laxurwstage.wpengine.com/wp-content/uploads/2020/08/BarneysBeaneryLogo-1-400x400.jpg 400w, https://laxurwstage.wpengine.com/wp-content/uploads/2020/08/BarneysBeaneryLogo-1-250x250.jpg 250w, https://laxurwstage.wpengine.com/wp-content/uploads/2020/08/BarneysBeaneryLogo-1-100x100.jpg 100w",
+        "redirectUrl": "/"
+      },
+      {
+        "imageSet": "https://laxurwstage.wpengine.com/wp-content/uploads/2020/09/fords-filling-station-logo.jpeg 500w, https://laxurwstage.wpengine.com/wp-content/uploads/2020/09/fords-filling-station-logo-300x300.jpeg 300w, https://laxurwstage.wpengine.com/wp-content/uploads/2020/09/fords-filling-station-logo-150x150.jpeg 150w, https://laxurwstage.wpengine.com/wp-content/uploads/2020/09/fords-filling-station-logo-195x195.jpeg 195w, https://laxurwstage.wpengine.com/wp-content/uploads/2020/09/fords-filling-station-logo-200x200.jpeg 200w, https://laxurwstage.wpengine.com/wp-content/uploads/2020/09/fords-filling-station-logo-80x80.jpeg 80w, https://laxurwstage.wpengine.com/wp-content/uploads/2020/09/fords-filling-station-logo-400x400.jpeg 400w, https://laxurwstage.wpengine.com/wp-content/uploads/2020/09/fords-filling-station-logo-250x250.jpeg 250w, https://laxurwstage.wpengine.com/wp-content/uploads/2020/09/fords-filling-station-logo-100x100.jpeg 100w",
+        "redirectUrl": "/"
+      },
+      {
+        "imageSet": "https://laxurwstage.wpengine.com/wp-content/uploads/2020/08/SeaLegsWineBarLogo-1.jpg 500w, https://laxurwstage.wpengine.com/wp-content/uploads/2020/08/SeaLegsWineBarLogo-1-300x300.jpg 300w, https://laxurwstage.wpengine.com/wp-content/uploads/2020/08/SeaLegsWineBarLogo-1-150x150.jpg 150w, https://laxurwstage.wpengine.com/wp-content/uploads/2020/08/SeaLegsWineBarLogo-1-195x195.jpg 195w, https://laxurwstage.wpengine.com/wp-content/uploads/2020/08/SeaLegsWineBarLogo-1-200x200.jpg 200w, https://laxurwstage.wpengine.com/wp-content/uploads/2020/08/SeaLegsWineBarLogo-1-80x80.jpg 80w, https://laxurwstage.wpengine.com/wp-content/uploads/2020/08/SeaLegsWineBarLogo-1-400x400.jpg 400w, https://laxurwstage.wpengine.com/wp-content/uploads/2020/08/SeaLegsWineBarLogo-1-250x250.jpg 250w, https://laxurwstage.wpengine.com/wp-content/uploads/2020/08/SeaLegsWineBarLogo-1-100x100.jpg 100w",
+        "redirectUrl": "/"
+      },
+      {
+        "imageSet": "https://laxurwstage.wpengine.com/wp-content/uploads/2020/08/WolfgangPuckLogo.jpg 500w, https://laxurwstage.wpengine.com/wp-content/uploads/2020/08/WolfgangPuckLogo-300x300.jpg 300w, https://laxurwstage.wpengine.com/wp-content/uploads/2020/08/WolfgangPuckLogo-150x150.jpg 150w, https://laxurwstage.wpengine.com/wp-content/uploads/2020/08/WolfgangPuckLogo-195x195.jpg 195w, https://laxurwstage.wpengine.com/wp-content/uploads/2020/08/WolfgangPuckLogo-200x200.jpg 200w, https://laxurwstage.wpengine.com/wp-content/uploads/2020/08/WolfgangPuckLogo-80x80.jpg 80w, https://laxurwstage.wpengine.com/wp-content/uploads/2020/08/WolfgangPuckLogo-400x400.jpg 400w, https://laxurwstage.wpengine.com/wp-content/uploads/2020/08/WolfgangPuckLogo-250x250.jpg 250w, https://laxurwstage.wpengine.com/wp-content/uploads/2020/08/WolfgangPuckLogo-100x100.jpg 100w",
+        "redirectUrl": "/"
+      }
+    ],
+    "featuredRetailer": {
+      "title": "Bypass the Lines",
+      "description": "Order food for pick up now!",
+      "buttonTitle": "ORDER NOW",
+      "buttonLink": "/"
+    },
+    "articleData": [
+      {
+        "imageUrl": "https://laxurwstage.wpengine.com/wp-content/uploads/2020/07/image-lax-shopping.png",
+        "isVideo": true,
+        "title": "LAX SHOPPING",
+        "description": "Travel downtime is the perfect excuse to indulge in some retail therapy. LAX hosts an extensive collection of shopping destinations, offering everything from designer apparel, luxury goods, and beauty products, to electronics and last-minute travel essentials, all right at your fingertips.",
+        "description2": "More than 80 shopping destinations throughout LAX",
+        "buttonTitle": "Browse LAX Shopping",
+        "buttonLink": "/",
+        "imageRight": false,
+        "backgroundColor": "#32374c"
+      },
+      {
+        "imageUrl": "https://laxurwstage.wpengine.com/wp-content/uploads/2020/01/map-lax2.jpg",
+        "isVideo": false,
+        "title": "Terminal Maps",
+        "description": "Explore our interactive, mobile-friendly terminal maps to easily find your way to all LAX Shop + Dine locations.  Touch or click any landmark on the map to zoom in and access more information about that location.",
+        "buttonTitle": "Explore LAX Terminal Maps",
+        "buttonLink": "/",
+        "imageRight": false,
+        "backgroundColor": "#1a1a1a"
+      },
+      {
+        "imageUrl": "https://laxurwstage.wpengine.com/wp-content/uploads/2018/12/lax-amenities-and-services-1.jpg",
+        "isVideo": false,
+        "title": "LAX Amenities & Services",
+        "description": "LAX offers a range of amenities and services to support the needs of any type of traveler or visitor to the airport. Access this section of the website to explore our LAX travel guide, with useful tips, links and travel information to help you plan and make the most of your visit to LAX.",
+        "buttonTitle": "View LAX Traveler Info",
+        "buttonLink": "/",
+        "imageRight": true,
+        "backgroundColor": "#e4e4e4",
+        "color": "black"
+      }
+    ]
+  }
+}

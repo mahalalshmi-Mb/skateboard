@@ -1,0 +1,17 @@
+.sitemaps .sitemap-links {
+  color: #0062e3;
+  font-size: 14px;
+  font-family: ManropeSemiBold;
+  padding-right: 18px;
+  margin-bottom: 24px;
+}
+
+.sitemaps .sitemap-links:visited {
+  color: #0062e3;
+}
+.sitemaps .sitemap-links:hover {
+  color: #0062e3;
+}
+.sitemaps .sitemap-links:active {
+  color: #0062e3;
+}

@@ -1,0 +1,17 @@
+.check_box {
+  display: flex;
+  flex-direction: row;
+  margin-top: 32px !important;
+}
+
+.title {
+  max-width: 433px;
+}
+
+.boldTxt {
+  font-weight: 600;
+}
+
+.additional-option {
+  color: #149b99;
+}

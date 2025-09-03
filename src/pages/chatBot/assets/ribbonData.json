@@ -1,0 +1,490 @@
+{
+    "category":"Main Menu", 
+    "prompt": "Hi, I'm Eko, Your Virtual Assistant at Bengaluru Airport. Pleased to be serving you today.\nPlease click a button below, or enter your question and I will do my best to help you.",
+    "options": [
+        {
+            "category":"Faqs", 
+            "options": [
+                {
+                    "category":"Covid", 
+                    "prompt":"Please check our website for more information on this topic.\n<a href='/travellers/passenger-services/faqs-about-blr-airport-bial#COVIDRELATED' target='_blank'>See On Website</a>"
+                },
+                {
+                    "category":"Lost & Found", "prompt": "To retrieve your lost item/bag at KIA contact the Lost & Found department, who will deal with your request.\nThe office is open 24/7 and can be accessed from within and outside the airport\n<div>Office is at: <ol><li>Airport Information Counter at the Kerbside opposite Subway(From outside)</li><li>Departure Hall: Opposite check-in counter #86.(From within the airport)</li><ol></ol></ol></div>\nAlternatively, fill out the claim form in the website and send all the necessary information\n<a href='/travellers/passenger-services/lost-found' target='_blank'>See On Website</a>"
+                },
+                {
+                    "category":"Check-in", "options": [
+                        {
+                            "category":"Check-in time", 
+                            "options": [
+                                {
+                                    "category":"Domestic", 
+                                    "options": [
+                                        {"category":"Domestic","prompt": "Domestic Passengers may carry up to Rs. 200,000 (approximately USD 2,700) with proof of the source of the funds and the purpose for which it is intended."},
+                                        {"category":"Domestic Lounge","prompt": "Experience comfort, leisure and entertainment in 12 uniquely designed zones meticulously crafted to meet the desire of any traveller.\nHere you can get lost in the pages of a book, a plot of a great movie or the taste of an exotic dish, even before you set off on your journey"},
+                                        {"category":"Meet & Assist Arrival Domestic","prompt": "Before you meet the world, we look forward to meeting and assist you. Our Meet & Assist service makes sure that your experience on arrival be seamless & pleasant. See on website please \n<a href='/travellers/services/all-services/all-service-list' target='_blank'>click here</a>"}
+                                    ]
+                                },
+                                {
+                                    "category":"International","prompt": "Most airlines require that passengers report at check-in counters three hours before departure for international flights.\nPlease check with your airline for updates."
+                                }
+                            ]
+                        },
+                        {
+                            "category":"Check-in procedure", 
+                            "options": [
+                                {
+                                    "category":"Domestic", 
+                                    "prompt": "<ol><li>Carry your e-ticket or get your e-boarding pass at the self-check-in kiosks near departure gates.</li><li>Ensure that you have a valid government photo ID for security verification.</li><li>Proceed to the check-in counters to collect your boarding pass/drop luggage. Use self-bag drop, if applicable.</li><li>Show your e-boarding pass to CISF Personnel to pass-through security check.</li></ol>"
+                                },
+                                {
+                                    "category":"International",
+                                    "prompt": "<ol><li>Carry your e-ticket or get your boarding pass at the self-check-in kiosks near departure gates.</li><li>Ensure that you have a Passport and valid visa.</li><li>Proceed to the check-in counters to collect your boarding pass/drop luggage.</li><li>All passengers are required to clear Immigration and have their passports stamped during both arrival and departure.</li><li>Show your e-boarding pass to CISF Personnel to pass-through security check.</li></ol>"
+                                }
+                            ]
+                        },
+                        {
+                            "category":"Self check-in", 
+                            "prompt": "Self-check-in kiosks are located at the Kerb, near Departure Gate #1. \nThe passenger must scan the barcode on the ticket, select a seat and retrieve the e-boarding pass."
+                        },
+                        {
+                            "category":"ID proof", 
+                            "prompt": "noData"
+                        },
+                        {
+                            "category":"Travel Documents", 
+                            "options": [
+                                {
+                                    "category":"Domestic", 
+                                    "prompt": "<ol><li>Carry your e-ticket or get your e-boarding pass at the self-check-in kiosks near departure gates.</li><li>Ensure that you have a valid government photo Identity Proof for security verification.</li></ol>"
+                                },
+                                {
+                                    "category":"International",
+                                    "prompt": "<ol><li>Carry your e-ticket or get your e-boarding pass at the self-check-in kiosks near departure gates.</li><li>Ensure that you have your Passport and valid visa for international passengers.</li><li>The other documents required for travel vary according to nationality, destination and reason for travel. Contact your destination country to find out what documents you need.</li><li>If you have lost your travel documents, please contact the Lost &amp; Found department.</li></ol>"
+                                }
+                            ]
+                        },
+                        {
+                            "category":"Senior Citizen/PRM Queue", 
+                            "prompt": "A separate queue for domestic travelers with Reduced Mobility (PRM) and Senior Citizens is available at the security check area.\nQueue 4 is restricted for Domestic Passengers with Reduced Mobility (PRM) and Senior Citizens"
+                        },
+                        {
+                            "category":"Business Class Passenger Queue", 
+                            "prompt": "A dedicated premium queue for domestic business-class passengers is available."
+                        },
+                        {
+                            "category":"Liquids/Milk/Powder", 
+                            "prompt": "A maximum of 100 ml of liquid, per container, are allowed in hand baggage.\nSanitizer upto 350 ml is allowed in the COVID-19 scenario.\n Milk Powder is allowed in hand luggage for the infants under special needs"
+                        },
+                        {
+                            "category":"Sports &amp; music items", 
+                            "prompt": "For the rules on taking musical instruments and sports equipment, please contact your airline for baggage policies."
+                        },
+                        {
+                            "category":"Medicines &amp; implants", 
+                            "prompt": "For medicines please carry your prescription.\nIf you have prostheses or other devices, we suggest you bring the relevant documents with you and notify the CISF Personnel before going through the security check."
+                        },
+                        {
+                            "category":"Food", 
+                            "prompt": "Taking both empty plastic bottles and solid food is allowed in the airport, subject to the import rules of the country of origin/destination."
+                        },
+                        {
+                            "category":"Restricted items", 
+                            "prompt": "Please check our website for more information on this topic.\n<a href='/travellers/passenger-services/baggage-services' target='_blank'>See On Website</a>"
+                        },
+                        {
+                            "category":"Security in transit", 
+                            "prompt": "Transit passenger can use the transit security check in arrival area and clear security by showing their onward boarding pass to CISF Personnel."
+                        }
+                    ]
+                },
+                {
+                    "category":"Baggage rules", "options": [
+                        {
+                            "category":"Cabin luggage rules",
+                            "prompt": "The rules on hand baggage are set by the individual airlines.\nWe recommend that you check with them on your booking confirmation, or on your airline's website."
+                        },
+                        {
+                            "category":"Check-in luggage rules",
+                            "prompt": "The rules on check-in baggage are set by the individual airlines.\nWe recommend that you check with them on your booking confirmation, or on your airline's website."
+                        },
+                        {
+                            "category":"Permissible weight",
+                            "prompt": "Baggage allowance is dependent on the airline and category of ticket.\nThis should be mentioned on your ticket, please contact the airline for details."
+                        },
+                        {
+                            "category":"Liquor",
+                            "prompt": "Passengers can carry up to 5 litres of liquor in their check-in luggage only."
+                        },
+                        {
+                            "category":"E-Cigarettes",
+                            "prompt":"As per the BCAS (Bureau of Civil Aviation Security) E-Cigarettes are not allowed to be carried in the flights."                        },
+                        {
+                            "category":"Cash",
+                            "options": [
+                                {
+                                    "category":"Domestic", 
+                                    "prompt": "Domestic Passengers may carry up to Rs. 200,000 (approximately USD 2,700) with proof of the source of the funds and the purpose for which it is intended."
+                                },
+                                {
+                                    "category":"International",
+                                    "prompt": "International travellers can carry upto Rs.25000 Indian currency.\nThere is no limit on carrying foreign currency purchased from authorised foreign exchange dealers."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "category":"Baggage Drop", "prompt": "The self-bag drop facility is currently available for Spice Jet and Air Asia India flights.\n The fully automated self-bag drop service enables passengers to complete the baggage check-in transaction in 45 seconds."
+                },
+                {
+                    "category":"Differently abled", "prompt": "<ol><li>For differently abled passengers, a dedicated zone is reserved for drop-off at the Kerb near the Departure gates and pick up at the inner Kerb near Arrivals.</li><li> A calling facility has been installed at the drop-off point to enable passengers to call the airline for assistance.</li><li>Differently abled passengers are accorded priority at all processing points (departure gates, check-in counters, PESC and boarding gates).</li><li>Passengers with reduced mobility can opt for the complimentary buggy service available at two designated locations: near Departure gates and at International security check area.</li><li>Passengers can also engage a concierge and porter service. They will be assisted by staff and escorted by the porter to the check-in counter.(Paid Service)</li><li> In Security Check Queue 4 is restricted for Domestic Passengers with Reduced Mobility (PRM) and Senior Citizens</li></ol>"
+                },
+                {
+                    "category":"Transit facility", "prompt": "We do have Domestic to Domestic Transfers. But they are only open morning 07:00 Hrs to 10:00 Hrs and evening 16:00 Hrs to 19:00 Hrs."
+                },
+                {
+                    "category":"Boarding gates", "prompt": "Boarding gates for all flights close 25 minutes before departure."
+                },
+                {
+                    "category":"Visa", "prompt": "According to Indian law, travellers from certain countries can avail an e-tourist visa for a limited period for tourism, medical treatment, casual business or to visit friends/ relatives, etc.\nPlease check our website for more information on this topic.\n<a href='/visa/tvoa.html' target='_blank'>See On Website</a>"
+                },
+                {
+                    "category":"Customs", "prompt": "Indian Customs at BLR Airport: 080 6678 1402"
+                },
+                {
+                    "category":"Duty free", "prompt": "The Duty-Free shops, operated by Dufry India, are located at International Arrivals and Departures, and offer over 10,000 products, including cosmetics, fragrances, chocolates, liquor and more.\nPlease check our website for more information on this topic.\n<a href='/en' target='_blank'>See On Website</a>"
+                },
+                {
+                    "category":"Arrival to Departure Visitors ", "prompt": "A transfer gate is located between the Arrival Hall and the Departure area (the entrance next to the Arrival lounge exit).\nPlease get in touch with airline / Terminal staff for assistance."
+                },
+                {
+                    "category":"Jobs", "prompt": "Send a mail to <a href='mailto:careers@bialairport.com'> careers@bialairport.com </a>\n If there is any position matching your resume, we will revert."
+                },
+                {
+                    "category":"Terminal 2", "options": [
+                        {
+                            "category":"Parking", "prompt": "Temporary parking is available at the Arrivals level of T2. Follow directional signages and instructions of our traffic wardens."
+                        },
+                        {
+                            "category":" T2 Map ", "prompt": "Please check our website for more information on this topic <a href='/terminal2/map' target='_blank_'>click here</a>"
+                        }
+                    ]
+                },
+                {
+                    "category":"Digiyatra", "prompt": "Complete these steps at home before you arrive at the airport:\n<div><li>Download the Digi Yatra app by the Digi Yatra Foundation from either Play Store (for Android) or App Store (for iPhone)</li><li>Enter your Aadhaar-linked mobile number and register with the OTP you receive.</li><li>Create your Identity Credentials using Offline Aadhaar xml or through Digi Locker.</li><li>Take a selfie on the app, ensure your frontal face is visible clearly and create your Identity Credentials.</li><li>Complete your web check-in. Scan or upload your boarding pass on the app.</li><li>Click on ‘share’ to share your ID and Travel credentials to the origin airport in advance of your travel.</li></div>\nFollow the steps below you arrive at the airport\n<ol type='step 1'><b></b><li><b>At the Digi Yatra Departure Entry Gate</b><ul><li>Scan your boarding pass at E-gate</li><li> Stand on the floor marking and face the camera</li><li>Camera will capture your facial biometrics</li><li> E-gate will open upon validation, you can now enter the terminal</li></ul></li><b></b><li><b>Inside the terminal</b><ul><li>If travelling with check-in baggage, then visit airline counter and drop your baggage</li><li>Then proceed to pre-embarkation security check point</li><li>If travelling only with cabin baggage, then directly proceed to pre-embarkation security check point</li></ul></li><b></b><li><b>At the pre-embarkation security check point and at the boarding gate</b><ul><li>Stand on the floor marking and face the camera</li><li>Camera captures your facial biometrics</li><li>E-gate will open upon validation</li></ul></li></ol>"
+                },
+                {
+                    "category":"Queue Wait time", "prompt": "See website for more information on this topic\n<a href='/at-the-airport/estimatedWaitTime' target='_blank_'>Click here</a>"
+                }
+            ]
+        },
+        {
+            "category":"Flights", 
+            "prompt":"Please select one of the options below",        
+            "options":[
+                {
+                    "category":"Flight information", 
+                    "prompt": "I have flight information for today and tomorrow. To find the flight, Please select any of the search options below.",
+                    "options": [
+                        {
+                            "placeHolderTxt": "Enter your Flight Number here",
+                            "category":"Flight Number",
+                            "type": "searchByFlightNumber",
+                            "apiEndPoint": "",
+                            "prompt":"Please provide your <b>Flight Number</b>",
+                            "options": []
+                        },
+                        {
+                            "category":"Airline Name",
+                            "prompt":"Do you wish to have information on Arrival or Departure?",
+                            "options": [
+                                {
+                                    "placeHolderTxt": "Enter your Airline Name here",
+                                    "category":"Arrival", 
+                                    "type": "searchByFlightName",
+                                    "apiEndPoint": "",
+                                    "prompt":"Please provide your <b>Airline Name</b>",
+                                    "options": []
+                                },
+                                {
+                                    "placeHolderTxt": "Enter your Airline Name here",
+                                    "category":"Departure", 
+                                    "type": "searchByFlightName",
+                                    "apiEndPoint": "",
+                                    "prompt":"Please provide your <b>Airline Name</b>",
+                                    "options": []
+                                }
+                            ]
+                        },
+                        {
+                            "category":"Origin/Destination", 
+                            "type": "originType",
+                            "apiEndPoint": "",
+                            "options": []
+                        }
+                    ]
+                }            
+            ]
+        },
+        {
+            "category":"Transport", 
+            "options": [
+                {
+                    "category": "Airport Address", 
+                    "prompt": "Kempegowda International Airport, KIAL Rd, Devanahalli, Bengaluru, Karnataka 560300"
+                },
+                {
+                    "category": "Parking",
+                    "options": [
+                        {"category": " Four-Wheeler ", "prompt":"<table><tbody><tr><td><b>Four-Wheeler</b></td></tr><tr><td>Location: </td><td> P4 Zone </td></tr><tr><td>Duration:</td><td>0 to 30 minutes</td></tr><tr><td>Fare:</td> <td> ₹ 100</td> </tr><tr><td>Every additional 1 hour:</td><td>₹ 50 </td></tr><tr><td>One day:</td><td>₹ 600</td></tr><tr><td>Every additional day:</td><td>₹ 350</td></tr><tr><td>Loss of ticket:</td><td>₹ 600 </td></tr></tbody></table>\nFor Electric cars there is a 20% discount on original fare. There are built-in charging points, passengers can charge vehicle free of cost"},
+                        {"category": " Two-Wheeler ", "prompt": "<table><tbody><tr><td><b>Two-Wheeler</b></td></tr><tr><td>Location: </td><td> P4 Zone </td></tr><tr><td>Duration:</td><td>0 to 1 hours</td></tr><tr><td>Fare:</td> <td> ₹ 40</td> </tr><tr><td>Every additional 1 hour:</td><td>₹ 20 </td></tr><tr><td>One day:</td><td>₹ 250</td></tr><tr><td>Every additional day:</td><td>₹ 150</td></tr><tr><td>Loss of ticket:</td><td>₹ 250 </td></tr></tbody></table>"},
+                        {"category": " Reduced Mobility ", "prompt": "A dedicated drop off and pick up point is provided in the lane closest to the terminal for people with reduced mobility and those requiring wheelchair facility.\n <table><tbody><tr><td><b>Reduced Mobility n</b></td></tr><tr><td>Location:</td><td> P4 Zone </td></tr><tr><td>Duration:</td><td>Fare</td></tr><tr><td>0 to 30 minutes:</td> <td> ₹ 100</td> </tr><tr><td>Every additional 1 hour:</td><td>₹ 50 </td></tr><tr><td>One day:</td><td>₹ 600</td></tr><tr><td>Every additional day:</td><td>₹ 350</td></tr><tr><td>Loss of ticket:</td><td>₹ 600</td></tr></tbody></table>"},
+                        {"category": " Bus Parking below 16 seater", "prompt": "<table><tbody><tr> <td><b>Bus Parking below 16 seater</b></td></tr><tr><td>Location: </td><td> P4 Zone </td></tr><tr><td>Duration:</td><td>0 to 1 hours</td></tr><tr><td>Fare:</td> <td> ₹200</td><td> </td></tr><tr><td>Additional hours:</td><td>₹200 </td></tr><tr><td>Loss of ticket:</td><td>₹1000</td></tr></tbody></table>"},
+                        {"category": "Bus Parking above 16 seater", "options": [
+                            {"category": "Valet Parking", "prompt": "Searching for parking spots can be exhausting. Let our experienced valet driver park your car safely and securely. Your car, our responsibility. See on website please <a href='/travellers/services/all-services/all-service-list' target='_blank'>click here</a>"},
+                            {"category": " Bus Parking below 16 seaters ", "prompt": "<table><tbody><tr> <td><b>Bus Parking below 16 seater</b></td></tr><tr><td>Location: </td><td> P4 Zone </td></tr><tr><td>Duration:</td><td>0 to 1 hours</td></tr><tr><td>Fare:</td> <td> ₹200</td><td> </td></tr><tr><td>Additional hours:</td><td>₹200 </td></tr><tr><td>Loss of ticket:</td><td>₹1000</td></tr></tbody></table>"},
+                            {"category": " Intercity Bus ", "prompt": "The Flybus is an inter-city air-conditioned bus service offered by KSRTC for travel between BLR Airport and cities in Karnataka and other South Indian states.\n Please check our website for more information on this topic.\n<a href='/travellers/transport-parking#IntercityBus' target='_blank'>See On Website</a>"}
+                        ]}
+                    ]
+                },
+                {"category": "Vayu Vajra", "prompt": "Airport buses/shuttle services to and from the airport are handled by BMTC.\nPlease check our website for more information on this topic. \n<a href='/travellers/transport-parking#Airport-VayuVajra' target='_blank'>See On Website</a>"},
+                {"category": "Intercity Bus", "prompt": "The Flybus is an inter-city air-conditioned bus service offered by KSRTC for travel between BLR Airport and cities in Karnataka and other South Indian states.\n Please check our website for more information on this topic.\n<a href='/travellers/transport-parking#IntercityBus' target='_blank'>See On Website</a>"},
+                {"category": "Car Rentals", "prompt": "We have two service providers handling post-paid taxi service at the airport. Please check our website for more information on this topic.\n<a href='/travellers/transport-parking#CarRentals' target='_blank'>See On Website</a>"},
+                {"category": "Airport Taxi", "prompt": "The Airport Taxi service is easily accessible from the Arrival Zone. Please check our website for more information on this topic.\n<a href='/travellers/transport-parking#AirportTaxi' target='_blank'>See On Website</a>"},
+                {"category": "App Taxi", "prompt": "Signage for app-based taxis will guide passengers and visitors to the taxi boarding area, which is a short walk from the Terminal.\nThe Uber boarding point is opposite Arrivals, while the Ola boarding point is next to the BMTC bus station.\nPlease check our website for more information on this topic.\n<a href='/travellers/transport-parking#AppTaxis' target='_blank'>See On Website</a>"},
+                {"category": "Women Only Cab", "prompt": "Pink Taxi by KSTDC and BLR Airport is an initiative for women passengers to travel to and from the Airport.\nAvailable 24X7, the taxis are equipped with safety features such as GPRS tracking and an SOS switch for your safety.\nFare:\n06:00 hours to 23:59 hours - ₹ 24.00 per km\n00:01 hours to 05:59 hours - 10% on the above fare.\nPlease check our website for more information on this topic. \n<a href='/travellers/transport-parking#AirportTaxi' target='_blank'>See On Website</a>"},
+                {"category": "Suburban trains", "prompt": "Passengers can avail the shuttle service from the Airport Halt Station to reach various parts of BLR Airport.\nThe shuttle service is synchronised with the train timings.\nPlease check our website for more information on this topic.\n<a href='/travellers/transport-parking#SuburbanTrains' target='_blank'>See On Website</a>"},
+                {"category": "Cyclists", "prompt" : "BLR Airport campus is open to cyclists every Sunday between 6:00 AM to 9:30 AM.\nHistorically, the movement of cyclists at the BLR Airport campus was restricted due to safety concerns. Having improved its road infrastructure, BLR Airport is now welcoming cyclists."},
+                {"category": "Toll Charges", "prompt": "Passengers will get printed bill with a line item of Rs 125/- as toll charges in all Airport Taxis.\nFor app-based taxi services, passengers are requested to verify directly with the service."}
+            ]
+        },
+        {
+            "category":"Rewards Program", 
+            "prompt": "This reward program is designed to thank & reward loyal customers for purchasing products at select merchants at the airport. See more on website please \n<a href='/travellers/rewards' target='_blank'>click here</a>",
+            "options": [
+                {
+                    "category": "Membership", 
+                    "options":[
+                        {
+                            "category": "Eligibiltity", 
+                            "prompt": "Anyone above the age of 18 years, who travels via Bangalore International airport can join the Rewards program.\nThe passenger can download the BIAL Application or visit the website via link sent in earn SMS to join the program. The customer need to select the check box “Enroll me into the Bangalore Airport Loyalty Program” while registering in the BIAL Application or in website."
+                        },
+                        {
+                            "category": "Membership fee", 
+                            "prompt": "There is no cost associated to become a member of the Reward Program."
+                        },
+                        {
+                            "category": "Membership Benefits", 
+                            "prompt": "Members who are part of the reward program will receive 2 points for every 100 INR spent for every transactions on selected merchants at BIAL airport. Additionally, points may be issued from time to time based on promotional activities run by the merchants."
+                        }
+                    ]
+                },
+                {
+                    "category": "Redeem points",
+                    "options":[
+                        {
+                            "category": "How to redeem", 
+                            "prompt": "Member will be provided an option to “pay with points” in the EDC machine while purchasing products from participating brands at the airport. The Member will be provided “pay with points” option while purchasing through BIAL application as well."
+                        },
+                        {
+                            "category": "Redemption Limitation", 
+                            "prompt": "Members will be able to redeem only 50% of point balance in wallet during each transaction."
+                        },
+                        {
+                            "category": "Points Expiry", 
+                            "prompt": "Points will expire 24 months from the date they were first earned. If member does not redeem Points within this time frame, member forfeits all such Points."
+                        }
+                    ]
+                },
+                {
+                    "category": "Loyalty points",
+                    "options":[
+                        {
+                            "category": "Points balance", 
+                            "prompt": "Members can view their point balance by signing in the BIAL application. The Member has to select “My wallet” under Profile section to view the wallet balance."
+                        },
+                        {
+                            "category": " Transaction wise points status ", 
+                            "prompt": "Members can view the points earned/ redeemed against each transaction by signing in the BIAL app.\nMember will have to select “My wallet” from “Profile section”. Under Wallet section, members will be able to see points earned/ redeemed during each transaction in Points Passbook"
+                        }
+                    ]
+                },
+                {
+                    "category": "Refund", 
+                    "prompt": "Points earned for the transaction will be removed in the event that a purchase is returned for a refund.\nPoints redeemed for the transaction will be added to the member’s points wallet during refund."
+                },
+                {"category": "Points exchange", "prompt": "Points earned through the reward program have no cash value and are non-transferable."},
+                {"category": "Participating brands", "prompt": "The members will be able to earn/redeem points only over the stores located in Bangalore International Airport Limited.\nThe brands in BIAL where the member will be able to earn/ redeem points are:\nHi Design, Touchstone- Swarovski, Just Watches, Hatti Foods, Aubree, Forest Essentials, Cafe Coffee Day, Whiz Group, Bhartiya Jalpan, Smoor, Travel retail, Wind mills"}
+            ]
+        },
+        {
+            "category":"Food & Beverages", 
+            "prompt": "This reward program is designed to thank & reward loyal customers for purchasing products at select merchants at the airport. See more on website please \n<a href='/travellers/rewards' target='_blank'>click here</a>",
+            "options": [
+                {"category": "Food options", "prompt": "With over 44 F&B outlets, operational round the clock, BLR Airport has both Indian and International gourmet cuisines on offer.\nPassengers and visitors have the option to explore the variety of restaurants at the Kerb and The Quad by BLR, as well.\nPlease check our website for more information on this topic.\n<a href='/travellers/at-the-airport/experience/culinary-experience' target='_blank'>See On Website</a>"},
+                {"category": "Vegetarian", "prompt": "Once past security check, Tiffin Express in the Domestic boarding gates area (near Gate #2 and Gate #23) offers vegetarian food.\nBesides, there are several outlets on the Kerb and at The Quad by BLR serving only vegetarian food, such as Aubree, Bharatiya Jalpan, Nandi Upachar, Ooru Canteen, among others.\nPlease check our website for more information on this topic.\n<a href='/travellers/at-the-airport/experience/culinary-experience' target='_blank'>See On Website</a>"},
+                {"category": "Brewery", "prompt": "There are several outlets at The Quad by BLR that serve alcohol, including Barley & Grapes Café and Windmills Brewery. Alcohol is available between 11:00 AM - 11:00 PM. In addition, Living Liquidz and La Cave sell a selection of liquor and wine.\nPlease check our website for more information on this topic.\n<a href='/travellers/at-the-airport/experience/culinary-experience' target='_blank'>See On Website</a>"},
+                {"category": "Pre-order or Takeaway meal", "prompt": "Passengers can pre-order their meals through the website, self-ordering FSTR kiosks or by scanning the QR code displayed across the Terminal, with an option to have it delivered at a location of choice at the Terminal, including a specific boarding gate.\nPlease check the website to place your order\n<a href='https://applite.grabbngo.com/boarding' target='_blank'>See On Website</a>"}
+            ]
+        },
+        {
+            "category":"Shopping", 
+            "prompt": "A variety of local and global brands are available at BLR Airport both at domestic and international departures and arrivals, as well as at The Quad by BLR.\nPlease visit our website for more details on this topic.\n<a href='/travellers/at-the-airport/experience/retail-store' target='_blank'>See On Website</a>"
+        },
+        {
+            "category":"Premium Services", 
+            "options": [
+                {"category": "Valet Parking", "prompt": "Searching for parking spots can be exhausting. Let our experienced valet driver park your car safely and securely. Your car, our responsibility. See on website please <a href='/travellers/services/all-services/all-service-list' target='_blank'>click here</a>"},
+                {"category": "Flower Service", "prompt": "Celebrate your special moments with elegantly wrapped bouquet of beautiful fresh flower. It will bring a delightful welcome to your dear ones. <a href='/travellers/services/all-services/all-service-list' target='_blank'>click here</a>"},
+                {"category": "Car Spa", "options": [
+                    {"category": "Car Rentals", "prompt": "We have two service providers handling post-paid taxi service at the airport. Please check our website for more information on this topic.\n<a href='/travellers/transport-parking#CarRentals' target='_blank'>See On Website</a>"},
+                    {"category": "car parking bays", "prompt": "Over 900 car parking slots are currently available at the P4 parking area."}
+                ]},
+                {"category": "Porter Service", "prompt": "We are happy to help you with your heavy luggages. Make your journey seamless, safe & comfortable by availing our Porter service. See on website please <a href='/travellers/services/all-services/all-service-list' target='_blank'>click here</a>"},
+                {"category": "Left Luggage", "prompt": "Our Care by BLR- Experience Counter offers Left Luggage service to the passengers arriving at Kempegowda International Airport, Bangaluru. \nRefrain from carrying your baggage back and forth to the airport. You can now drop your baggage at our left luggage counters available in the arrival hall. Our well-trained staff will ensure that your bags are safely stored in high-security facilities until you are ready to pick them up again. See on website please \n<a href='/travellers/services/all-services/all-service-list' target='_blank'>click here</a>"},
+                {"category": "Meet & Assist Departure Domestic", "prompt":"Before you meet the world, we look forward to meeting and assist you. Our Meet & Assist service makes sure that your experience on departure be seamless & pleasant. See on website please \n<a href='/travellers/services/all-services/all-service-list' target='_blank'>click here</a>"},
+                {"category": "Meet & Assist Arrival Domestic", "prompt":"Before you meet the world, we look forward to meeting and assist you. Our Meet & Assist service makes sure that your experience on arrival be seamless & pleasant. See on website please <a href='/travellers/services/all-services/all-service-list' target='_blank'>click here</a>"},
+                {"category": "Meet & Assist Transit", "prompt": "Before you meet the world, we look forward to meeting and assist you. Our Meet & Assist service makes sure that your experience on transit be seamless & pleasant. See on website please <a href='/travellers/services/all-services/all-service-list' target='_blank'>click here</a>"},
+                {"category": "Baggage Wrapping", "prompt": "Our Care by BLR- Experience Counter offers Baggage wrapping service to the passengers departing from Kempegowda International Airport, Bangaluru. Secure all your essential baggage by using our Baggage Wrapping services to shield against scratches, bumps, tampering and bad weather. Your Luggage is wrapped in a clear white environment friendly plastic film wrap which acts as a protective layer, securing and preventing the goods being damaged. See on website please <a href='/travellers/services/all-services/all-service-list' target='_blank'>click here</a>"},
+                {"category": "Limousine Landside", "prompt": "Start your journey in the lap of luxurious limousine car. This ride guarantees a safe, pleasant, and prompt drive to or from the airport. See on website please <a href='/travellers/services/all-services/all-service-list' target='_blank'>click here</a>"}
+            ]
+        },
+        {
+            "category":"Amenities and Services", 
+            "options":[
+                {
+                    "category": "Internet & Wi-Fi",
+                    "options": [
+                            {
+                                "category":"Domestic", 
+                                "prompt": "Avail free Wi-Fi service (upto 45 minutes) at BLR Airport with a simple log-in process.<ol><li>Enable Wi-Fi and select BLR Airport free Wi-Fi.</li><li>Open a web browser on your device and type any URL. You will be redirected to the Wi-Fi webpage.</li><li>Fill in the required details and click on 'send OTP'</li><li>Enter the OTP received and click on 'submit'.</li><li>Enjoy free internet for 45 minutes. Do not close the login page during this duration.</li><li>Passengers may also avail paid Wi-Fi at nominal rates.</li></ol>"
+                            },
+                            {
+                                "category":"International",
+                                "prompt": "International passengers who do not have a roaming/local sim card can use the free Wi-Fi service.<ol><li> Go to the contactless Wi-Fi coupon dispensing kiosks placed at International arrivals.</li><li> Scan the photo page of your passport.</li><li> Scan your boarding pass.</li><li> Accept terms &amp; conditions.</li><li> Collect your Wi-Fi voucher code.</li></ol>"
+                            }
+                        ]
+                },
+                {
+                    "category": "Baggage services", 
+                    "prompt": "The SECURE WRAP service enables an extra layer of protection for your check-in baggage.\nLocated at Gate #4 & #7, departures (check-in hall)Baggage wrapping charges Rs.450"
+                },
+                {
+                    "category": "Money services", 
+                    "options": [
+                        {
+                            "category": "Forex", 
+                            "prompt": "Thomas Cook (India) Ltd. operates six outlets at BLR Airport – three, each, at Arrivals and Departures, offering easy access to outbound and inbound travellers.\nPassengers may utilise an array of Forex services on offer."
+                        },
+                        {
+                            "category": "ATM", 
+                            "prompt": "ATMs are located across the Airport to cater to your monetary needs.\nOpposite departure gate #1 (kerb side) Opposite departure gate #8 (kerb side) Opposite arrival gate #11 (kerb side) The QUAD by BLR\nNext to Globe ground India Ticketing Counter Check in Hall near departure gate #5A Domestic departure, opposite boarding gate #15\nArrival hall near gate #13 International baggage claim area near customs office"
+                        }
+                    ]
+                },
+                {"category": "Baby care rooms", "prompt": "Passengers may attend to the needs of their baby in privacy at the baby care rooms located at the BLR Airport.\nFollow the signage or check with the nearest Information Desk for location of the rooms."},
+                {
+                    "category": "Lounge", 
+                    "options": [
+                        {
+                            "category":"Domestic", 
+                            "prompt": "Experience comfort, leisure and entertainment in 12 uniquely designed zones meticulously crafted to meet the desire of any traveller.\nHere you can get lost in the pages of a book, a plot of a great movie or the taste of an exotic dish, even before you set off on your journey"
+                        },
+                        {
+                            "category":"International",
+                            "prompt": "With a curated menu by a celebrity chef, artisanal coffee brewsand artwork by local talents, the 080 International Lounge offers world-class amenities and services to all travellers.\nAs you experience the multitude of offerings here, you’ll discover bits of culture and heritage from across the country in the art, interiors and architecture of the lounge."
+                        },
+                        {
+                            "category":"Duration",
+                            "prompt": "Passengers may enter the lounge only three hours before departure time and are permitted to spend three hours on a single transaction.\nIf a passenger wants to extend the duration, they need to approach the reception with their requirements."
+                        },
+                        {
+                            "category":"Access",
+                            "prompt": "Both lounges (domestic + international) are operational round-the-clock at BLR Airport.\nPassengers can access the lounge using eligible lounge cards like VISA, Mastercard, RuPay, Diners club, American Express, Lounge Key, Lounge Club, Priority Pass and Airline invitation cards."
+                        },
+                        {
+                            "category":"Food",
+                            "prompt": "Post COVID-19, the lounges offer live food counters for dining, as well as takeaway food box options.\nThe cuisine on offer includes a mix of Indian and Continental food, along with beverages."
+                        },
+                        {
+                            "category":"Alcohol",
+                            "prompt": "The lounges offer a variety of liquor options at an additional charge."
+                        }
+                    ]
+                },
+                {
+                    "category": "Hotels", 
+                    "options": [
+                        {
+                            "category":"Taj Bangalore",
+                            "prompt": "Taj Bangalore offers a range of luxurious rooms, restaurants and banquet facilities.\nPlease visit our website for more details on this topic\n<a href='/en-in/taj/taj-bangalore/' target='_blank'>See On Website</a>"
+                        },
+                        {
+                            "category":"Transit Hotel",
+                            "prompt": "We have a room facility available for departure in the terminal building managed by the 080 Transit hotel.\nPlease visit the website for more details on this topic\n<a href='https://080-blr.com/home' target='_blank'>See On Website</a>"
+                        }
+                    ]
+                },
+                {
+                    "category": "Other facilities",
+                    "options": [
+                        {
+                            "category":"Charging points",
+                            "prompt": "We have charging point alloted at the kerb side opposite to Subway outlet.\nIn Departure Hall it is readily accessible at the airport"
+                        },
+                        {
+                            "category":"Smoking areas",
+                            "prompt": "Smoking is permitted only in designated smoking lounges inside the terminal (International and Domestic), on the kerbside (Departures and Arrivals) and at The Quad by BLR.\nFollow the signage or check at the nearest information desk for directions."
+                        },
+                        {
+                            "category":"Buggy Service",
+                            "prompt": "Senior citizens, expectant mothers and passengers with reduced mobility or injury can opt for the complimentary buggy service available at four designated locations:<ol><li> Near Departure gates.</li><li> At International security check area.</li><li> At Arrivals near gate 5.</li><li> Near Lost &amp; Found counter, Kerbside.</li></ol>"
+                        },
+                        {
+                            "category":"Porter",
+                            "prompt": "We have paid porter Service available 24/7 at the airport for baggage assistance.\n You may contact them on <a href='tel:08022012001' target='_blank'>08022012001 </a>"
+                        },
+                        {
+                            "category":"Postal service",
+                            "prompt": "We do have Post Office counter in the arrival area which is operational 09:00 hrs to 17:00 hrs."
+                        },
+                        {
+                            "category":"Wheelchair Assistance",
+                            "prompt": "Passengers who require wheelchair assistance must place a request with their respective airlines when booking tickets.\nIt is free cost service. However, depending on the airline, there could be a cost attached to the service if the maximum wheelchair count per flight is exhausted."
+                        },
+                        {
+                            "category":"Print",
+                            "prompt": "Self-check-in kiosks, which allow passengers to print/ re-print boarding passes or baggage tags, are available at the Terminal.\nFor any additional requirements, please reach out to the Airline staff."
+                        },
+                        {
+                            "category":"Prayer rooms",
+                            "prompt": "The multi-faith prayer rooms at BLR Airport offer a quiet retreat for prayer and meditation purposes.\nThe space is available for both domestic and international passengers.\nInternational Passengers can spot the room behind the Relay outlet at International departures\nDomestic passengers can find it adjacent to the new lounge (level 2)."
+                        },
+                        {
+                            "category":"SIM cards",
+                            "prompt": "International passengers arriving at BLR Airport can purchase and activate a local sim card by submitting a copy of their passport and visa to the service provider located in the arrival hall next to arrival gate 11.(CXSOL)"
+                        },
+                        {
+                            "category":"Airport Medical Services",
+                            "prompt": "Aster Medical Centre – adjacent to the Terminal building east side\nAster Medical Clinic – 1st floor next to Forex counter<p>Duty Medical officer (Medical Centre) – <a href='tel:97397 33335' target='_blank'>97397 33335 </a></p>\n Duty Medical officer (Aster PTB clinic) - <a href='tel:91487 90154' target='_blank'>91487 90154 </a>"
+                        },
+                        {
+                            "category":"Pharmacy",
+                            "prompt": "Pharmacy & medical clinic is located on level 1 inside the terminal building.\nYou can reach out to the departure/arrival helpdesk for assistance."
+                        },
+                        {
+                            "category":"Calling Facility",
+                            "prompt": "There is a free calling facility at Arrival Immigration and Domestic Security Hold Area (SHA)"
+                        },
+                        {
+                            "category":"Pets",
+                            "prompt": "Passengers are requested to contact their concerned airlines to carry pets, as they are the appropriate authority."
+                        }
+                    ]
+                }
+            ]
+        }
+
+    ]
+}

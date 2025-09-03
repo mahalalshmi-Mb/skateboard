@@ -1,0 +1,259 @@
+.add-flight-content-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.add-flight-content-container .flight-search-inputs-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  width: 100%;
+  padding: 0rem 2rem 0rem 2rem;
+}
+
+.add-flight-content-container .add-flight-modal-header {
+  font-style: normal;
+  font-size: 21px;
+  color: #273135;
+}
+
+.add-flight-content-container .input-container {
+  margin-top: 1rem;
+  width: 30%;
+}
+
+.add-flight-content-container .input-label-container {
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+
+.add-flight-content-container .input-label-wrapper {
+  display: flex;
+}
+
+.add-flight-content-container .space-between {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.add-flight-content-container .label-icon {
+  margin-right: 10px;
+}
+
+.add-flight-content-container .label-text {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 130%;
+  color: #273135;
+  white-space: nowrap !important;
+}
+
+.add-flight-content-container .swap-arrow-wrapper {
+  position: absolute;
+  top: 35px;
+  left: -40px;
+  display: flex;
+  padding: 12px 2px;
+  border-radius: 30px;
+  border: 1px solid #dcdcdc;
+  background-color: #fff;
+  z-index: 1;
+  transform: rotate(-90deg);
+  cursor: pointer;
+}
+
+.add-flight-content-container .input-wrapper {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.add-flight-content-container .s2a-content {
+  margin: 0 auto;
+}
+
+.add-flight-content-container .option {
+  margin: 2rem auto;
+  width: 80%;
+  height: 3rem;
+  line-height: 3rem;
+  border: none;
+  border-radius: 2rem;
+}
+
+.add-flight-content-container .option-web {
+  background-color: #fafafa;
+  color: #535558;
+}
+
+.add-flight-content-container .option-app {
+  background-color: #47b896;
+  color: #fff;
+}
+.add-flight-content-container .titleCloseBtn button {
+  background-color: transparent;
+  border: none;
+  font-size: 25px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+.add-flight-content-container .date-container {
+  width: 80%;
+  margin-left: 7%;
+  margin-top: 2%;
+}
+
+.upload-boarding-pass {
+  margin-top: 18%;
+}
+
+.upload-boarding-pass-icon {
+  display: flex;
+  justify-content: center;
+}
+
+.add-flight-content-container .search-dropdown-wrapper {
+  display: flex;
+  position: relative;
+}
+
+.add-flight-content-container .search-dropdown-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-height: 200pt;
+  z-index: 10;
+  overflow: scroll;
+
+  box-sizing: border-box;
+  border: 1px solid #dcdcdc;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.add-flight-content-container
+  .search-dropdown-content
+  .search-dropdown-content-tile {
+  height: 20pt;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-style: normal;
+  font-size: 13px;
+  line-height: 18px;
+  margin: 3pt 0pt;
+  padding: 3pt 0pt;
+  padding-left: 6pt;
+  border-bottom: 1px solid #dcdcdc;
+}
+
+.add-flight-content-container .flight-listing-wrapper {
+  margin-top: 1rem;
+  background-color: #e7f2f3;
+  padding: 1rem 4rem 10rem 4rem;
+}
+
+.add-flight-content-container .flight-listing-header {
+  font-style: normal;
+  font-size: 16px;
+  color: #273135;
+}
+
+.add-flight-content-container .flight-listing-content {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.add-flight-content-container .flight-loader-container {
+  display: flex;
+  flex: 1 1 0%;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-top: -5rem;
+}
+
+.add-flight-content-container .no-flights-found-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.add-flight-content-container .info-box-container {
+  width: calc(100% - 4rem);
+  background-color: #ebf5f6;
+  border-radius: 4px;
+  margin: 16px 0px 0px 0px;
+  display: flex;
+  align-items: center;
+  padding: 0px 16px 0px 12px;
+  height: 55px;
+  justify-content: space-between;
+  margin: 1rem 2rem 0px 2rem;
+}
+
+.add-flight-content-container .info-box-content {
+  display: flex;
+  align-items: center;
+}
+
+.add-flight-content-container .info-text-wrapper {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: -0.01em;
+  color: #273135;
+  margin: 0px 10px;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+  .add-flight-content-container .flight-search-inputs-container {
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+  .add-flight-content-container .input-container {
+    width: 100%;
+  }
+  .add-flight-content-container .flight-listing-wrapper {
+    margin-top: calc(1rem - 50px);
+    background-color: #e7f2f3;
+    padding: 1rem 2rem 10rem 2rem;
+  }
+  .add-flight-content-container .flight-loader-container {
+    margin-top: -10rem;
+  }
+  .add-flight-content-container .info-text-wrapper {
+    display: block;
+  }
+  .add-flight-content-container .swap-arrow-wrapper {
+    position: absolute;
+    left: auto;
+    top: -25px;
+    right: 5px;
+    display: flex;
+    padding: 18px 4px;
+    transform: rotate(0deg);
+  }
+}
+
+.add-flight-content-container .MuiFormLabel-root {
+  font-family: "ManropeRegular" !important;
+}
+.add-flight-content-container .MuiInputBase-input {
+  font-family: "ManropeRegular" !important;
+}
+
+.add-flight-content-container .MuiInputBase-input {
+  color: black !important;
+  padding: 16.5px 0px 16.5px 14px !important;
+}
+.add-flight-content-container .MuiTextField-root {
+  height: 100%;
+  width: 100%;
+}

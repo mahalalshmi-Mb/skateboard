@@ -1,0 +1,71 @@
+.mandatory-info-page {
+}
+.mandatory-info-page .react-tel-input .form-control {
+  width: calc(100% - 3rem) !important;
+  height: 54px !important;
+  padding: 0 1rem !important;
+  margin-left: 3rem !important;
+  border-radius: 8px !important;
+  font-size: 15px;
+  letter-spacing: 0.1rem;
+  border: 1px solid #dcdcdc;
+  background-color: #fff !important;
+  outline: none !important;
+  border-width: 1px !important;
+}
+.mandatory-info-page .react-tel-input .flag-dropdown {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  padding: 0;
+  border: 1px solid #dcdcdc;
+  border-radius: 8px 0 0 8px;
+  background-color: #fff !important;
+  border-width: 1px !important;
+}
+.mandatory-info-page .react-select__control {
+  height: 54px;
+  font-size: 16px;
+  border: 1px solid #dcdcdc;
+  border-radius: 8px;
+  outline: none;
+  color: #222222;
+  background-color: #ffffff;
+}
+.mandatory-info-page .react-select__value-container {
+  height: 54px;
+}
+.mandatory-info-page .react-select__indicators {
+  height: 54px;
+}
+
+.mandatory-info-page .date-time-picker {
+  width: 100%;
+  display: flex;
+}
+.mandatory-info-page .date-time-picker input {
+  height: 52px;
+  display: flex;
+  width: 100%;
+  min-height: 52px;
+  font-size: 14px;
+  font-family: "ManropeRegular";
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  background-position: right center !important;
+  background-origin: content-box;
+  outline: none;
+  padding: 0rem 1rem 0rem 1rem;
+  background-color: #f9f9f9;
+  border: 2px solid rgba(223, 223, 226, 0.3);
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  color: #222222;
+}
+
+.mandatory-info-page .MuiTextField-root {
+  height: 100%;
+  width: 100%;
+}

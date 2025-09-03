@@ -1,0 +1,49 @@
+.weather-link-homepage {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 7px 12px;
+  gap: 8px;
+  border-radius: 100px;
+}
+.weather-bg-black {
+  background: rgba(255, 255, 255, 0.15);
+}
+.weather-bg-white {
+  background: #ffffff;
+}
+.weather-link-homepage .weather-temp-icon {
+  width: 20px;
+  height: 20px;
+}
+.weather-link-homepage .weather-temperature {
+  font-size: 12px;
+  line-height: 15px;
+  opacity: 0.8;
+}
+
+.weather-link-homepage .weather-description {
+  font-size: 12px;
+  line-height: 15px;
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 767px) {
+  .weather-link-homepage .weather-temp-icon {
+    width: 15px;
+    height: 15px;
+  }
+}
+
+@media (min-width: 768px) {
+  .weather-link-homepage .weather-temperature {
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .weather-link-homepage .weather-description {
+    font-size: 14px;
+    line-height: 19px;
+  }
+}

@@ -1,0 +1,912 @@
+#corover-cb-widget{
+    width: 132px;
+    height: 150px;
+    position: fixed;
+    bottom: 80px;
+    right: 18px;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 0px 0px;
+    transition: transform 0.2s;
+    cursor: pointer;
+    transform-origin: 50% 50%;
+    z-index: 9999;
+    display: block;
+}
+
+#corover-frame-body *{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif!important;
+}
+
+#floating-lottie{
+    width: 135px;
+    height: 135px
+}
+
+.animated-chat-right{
+    padding: 10px 0px;
+    width: 35px;
+    height: 113px;
+    position: fixed;
+    right: 0px;
+    top: 65%;
+    font-family: sans-serif;
+    background: linear-gradient(rgb(33, 95, 98), rgb(58, 190, 179));
+    border-radius: 10px 0px 0px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+    z-index: 99;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0;
+}
+
+.animated-chat-right p{
+    margin-bottom: 0;
+}
+.corover-dialog{
+    z-index: 999999;
+    display: none;
+    position: absolute;
+    font-size: 10px;
+    right: 6px;
+    bottom: 155px;
+    padding: 13px 5px 10px 0px;
+    border-radius: 20px;
+    background: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(95, 71, 71, 0.24) 0px 1px 4px;
+}
+
+.corover-dialog .botIcon{
+    margin-top: -10px;
+    height: 40px;
+}
+
+#corover-cb-widget:hover .corover-dialog{
+    display: flex;
+}
+
+.corover-dialog .header{
+    width:165px;
+    font-weight:600;
+    color:black;
+    letter-spacing:1px;
+    font-family:sans-serif
+}
+
+.corover-dialog .sub-header{
+    margin-top:9px;
+    font-family:sans-serif;
+    letter-spacing:1px;
+    color:#000000b0;
+    font-weight:700
+}
+
+.font12{
+    font-size: 12px;
+}
+
+#corover-min-btn{
+    position: absolute; 
+    top: 0px; 
+    right: 0px; 
+    width: 16px; 
+    height: 16px;
+}
+
+.coroverAvtr {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 0.5s;
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite;
+}
+
+#corover-chatbox{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    z-index: 999999;
+    display: block;
+    width: 420px;
+    height: calc(var(--vh, 1vh) * 90);
+    position: fixed;
+    bottom: 0px;
+    right: 15px;
+    overflow: auto;
+    border: 1px solid #dfe1e5;
+    box-shadow: 0 7px 6px 1px rgb(0 0 0 / 16%);
+}
+
+#corover-title-bar{
+    background-color: rgb(66, 102, 178); 
+    color: white;
+}
+
+#corover-close-cb-btn{
+    background-repeat: no-repeat;
+    background-position: 30px 20px;
+    position: absolute;
+    top: -11px;
+    left: 90%;
+    transform: translateX(-50%);
+    cursor: pointer;
+    background-size: 51px 24px;
+    width: 69px;
+    height: 60px;
+    z-index: 1;
+}
+
+#corover-frame-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;     
+    background-color: #f7f7f7;
+    height: 100%;
+    width: 100%;    
+}
+
+.chatbot__header{
+    color: #fff;
+    background: linear-gradient(to right, #215f62, #3abeb3);
+    position: relative;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, .5);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: height 160ms ease-out 0s;
+    border-radius: 0 0 35px 35px;
+    min-height: 77px;
+    padding: 0 7px 0 15px;
+    width: 100%;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.chatbot__header .bot{
+    left: 1px;
+    height: 88px;
+    top: 0px;
+    position: absolute;
+    z-index: 99;
+    display: inline-flex;
+    align-items: center;
+}
+
+.chatbot__header .nameing{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.chat-input__text{
+    background: #fff;
+    width: 100%;
+    position: relative;
+    height: 42px;
+    font-weight: 500;
+    margin-top: 5px;
+    resize: none;
+    font-size: 17px;
+    outline: 0;
+    border: 1px solid #f2f0f0;
+    color: #000;    
+    overflow: hidden;
+    border-radius: none;
+    border-right: none;
+    padding: 10px 30px 10px 15px;
+}
+
+.chat-input__text:focus{
+    outline:  unset;
+}
+
+.buttonsDiv{    
+    width: 21%;
+    display: flex;
+    flex-direction: row;
+    background: white;
+    height: 42px;
+    margin-top: 5px;
+    border-bottom: 1px solid #f2f0f0;
+    border-top: 1px solid #f2f0f0;
+    padding-right: 0px;
+    justify-content: space-evenly;  
+}
+
+.trending-wrap .btn{
+    height: 32px;     
+    width: max-content;
+    text-decoration: none;
+    padding: 3px 7px;
+    color: #fff;
+    background: #226164;
+    font-size: 17px;
+    border-radius: 8px;
+    margin-right: 8px;
+    text-wrap: nowrap;
+}
+
+.trending-wrap .btn:hover{
+    background-color: #17a99e;
+    color: #fff;
+}
+
+.trendingContainer{
+    display: flex;
+    overflow: hidden;
+}
+
+.trendingContainer .btnLeft,.trendingContainer .btnRight{
+    height: 27px;
+    bottom: 27px;
+    width: 27px;
+    visibility: visible;
+    color: #fff;
+    border: 1px solid #d4d4d4 !important;
+    border-radius: 7px;
+    background: #d4d4d4;
+    scroll-behavior: smooth;
+}
+.trendingContainer .btnLeft:focus, .trendingContainer .btnRight:focus {
+    outline: none;
+}
+
+.trending-wrap{
+    display: flex;
+    width: 90%;
+    margin: 0 7px;
+    position: relative;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.chat-submit{
+    background-color: transparent;
+}
+
+.sendicon{
+    width: 28px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 3.3;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+}
+
+.introductionBoxContainer{
+    height: 90%;
+    padding: 5%;
+}
+
+.introductionBoxContainer .h-70{
+    height: 70%;
+    margin-bottom: 5%;
+    border-bottom: 0.6pt solid #626262;
+}
+
+.introductionBox {
+    border-radius: 5px;
+    border: 1pt solid #626262;
+    color: #626262;
+    padding: 15px;
+    width: 90%;
+    text-align: left;
+    margin: auto;
+    position: relative;
+    margin-top: 10%;
+}
+
+.introductionBox .ekoGray{
+    font-weight: 600; 
+    color: #4c2e55
+}
+
+.introductionBox .numberedList{
+    margin-top: 10px;
+    margin-bottom: 1em;
+}
+
+.introductionBox .lottie-welcome {
+    left: -27px;
+    bottom: -70px;
+    position: absolute;
+    margin-bottom: 40px;
+    width: 66px;
+}
+
+#getStartedBtn{
+    height: 38px;
+    width: 221px;
+    text-decoration: none;
+    padding: 3px 39px;
+    color: #fff;
+    background: #005d5c;
+    border: 1px solid #005d5c !important;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-right: 11px;
+}
+
+.txtCtr{
+    text-align: center;
+}
+
+.chat-wrap{
+    padding: 15px;
+    margin-bottom: 15px;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-position-x: center;
+}
+
+.chat-bubble {
+    margin-bottom: 1em;
+    float: left;
+    display: flex;
+    clear: both;
+    max-width: 90%;
+}
+
+.chat-user{
+    margin-top: -5px;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em !important;
+}
+
+.chat-bot {
+    max-width: 100%;
+}
+
+.bnglrAirpotImgContainer{
+    position: relative;
+    width: 335px;
+    text-align: center;
+    line-height: 160px;
+    background: #fff;
+    color: #fff;
+    overflow: hidden;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.chat-user .chat-text {
+    font-size: 15px;
+    color: #fff;
+    background-color: #226164;
+    border-radius: 10px 10px 0;
+    padding: .63em;
+    margin-bottom: 2px;
+    border: 1px solid #f7f7f7;
+}
+
+.chat-bot .chat-text {
+    background-color: #eaeaea;
+    padding: .63em;
+    border: 1px solid #f7f7f7;
+    border-radius: 10px 10px 10px 0;
+    margin-bottom: 2px;
+    max-width: 316px;
+    color: black;
+    line-height: 1.5;
+    font-size: 15px;
+}
+
+.chat-bot .chat-text p{
+    margin-bottom: 0px;
+}
+
+.chat-text a{
+    position: relative;
+    border: 1px solid #17aa9e;
+    padding: 2px 27px 4px 12px;
+    border-radius: 4px !important;
+    background: #17aa9e;
+    color: #fff;
+    display: inline-block;
+}
+
+.chat-text a:after {
+    content: "";
+    width: 30px;
+    height: 30px;
+    background: var(--arrow-right-url) 0 9px/16px no-repeat;
+    top: -2px;
+    right: -9px;
+    position: absolute;
+    display: inline-block
+}
+
+.chatGoTop{
+    background: #17a99ebf;
+    border: 1px solid #17a99e;
+    border-radius: 23px !important;
+    position: absolute;
+    bottom: 90px;
+    right: 10px;
+    z-index: 9999999;
+    opacity: 80%;
+    min-width: 32px;    
+    text-align: center;
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    font-size: 16px;
+}
+
+.chat-text .fallback{
+    position: relative;
+    border-radius: 4px !important;
+    display: inline-block;
+    border: none !important;
+    padding: 0 !important;
+    background: 0 0 !important;
+    color: #1890ff !important;
+    cursor: pointer;
+}
+
+.lottie-loading{
+    width: 40px;
+    height: 50px;
+    clear: both;
+    background-color: #eaeaea;     
+    border: 1px solid #f7f7f7;
+    border-radius: 10px 10px 10px 0;
+    margin-bottom: 2px;    
+}
+
+.chat-wrap .chat-time {
+    font-size: .7em;
+    color: #919699;
+}
+
+@media only screen and (max-width: 640px){
+    #corover-cb-widget{
+        width: 88px;
+        height: 88px;
+    }
+
+    .corover-dialog{        
+        bottom: 100px;         
+    }
+
+    #floating-lottie{
+        width: 88px;
+        height: 88px
+    }
+
+    #corover-chatbox {
+        width: 100% !important;
+        height: 93% !important;
+        right: 0 !important;
+        left: 0 !important;
+        bottom: 0 !important;
+    }
+
+    .introductionBox{
+        margin-top: 7%;
+    }
+
+    .introductionBox .numberedList{
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+    
+    #corover-cb-widget:hover .corover-dialog{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 840px) {
+    #corover-chatbox {
+        height: 100% !important;
+        height: calc(100% - 20px) !important;
+        top: 20px !important;
+        right: 0 !important;
+    }
+}
+
+/* for chatbot shake animate */
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+
+@keyframes typing-lines {
+    0% {
+        max-height: 0;
+    }
+    100% {
+        max-height: 100px; /* Adjust based on the number of lines */
+    }
+}
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%; /* Adjust based on the length of the content */
+    }
+}
+
+@keyframes blink-caret {
+    from {
+        border-color: transparent;
+    }
+    to {
+        border-color: black;
+    }
+}
+
+
+.flight-search-container{
+    padding: 0 15px 10px;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    margin: 0 10px;
+    box-shadow: rgba(50, 50, 93, .25) 0 2px 5px -1px, rgba(0, 0, 0, .3) 0 1px 3px -1px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.flight-search-container .source-box{
+    background-color: white;
+    padding: 5px 15px 10px 5px;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+    cursor: pointer;
+    width: 98%;
+    border-bottom: 1px solid rgb(204, 203, 203);
+    flex-direction: column;
+}
+
+.flight-search-container .arrows-icon-box{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: rgb(235, 238, 253);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    cursor: pointer;
+    position: absolute;
+    top: 33%;
+    transform: translateY(-50%);
+    right: 20px;
+}
+
+.flight-search-container .destination-box{
+    background-color: white;
+    padding: 5px 15px 10px 5px;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 5px;
+    cursor: pointer;
+    width: 98%;
+    border-bottom: 1px solid rgb(204, 203, 203);
+    flex-direction: column;
+}
+
+.flight-search-container .label{    
+    font-size: 12px;
+    color: rgb(52, 109, 179);
+    font-weight: 700;
+    margin-top: 0px;
+    display: block;
+}
+
+.flight-search-container .city{    
+    font-size: 14px;
+    margin-top: 6px;
+    color: rgb(75, 75, 76);
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.flight-search-container .destination-select{
+    font-size: 14px;
+    margin-top: 6px;
+    color: rgb(75, 75, 76);
+    font-weight: 600;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    position: relative;
+    height: 32px;
+}
+
+.destination-select .select__control {
+    height: 32px;
+    padding: 0px;
+}
+
+.flight-search-container .checkFlight{    
+    display: block;
+    margin: 15px auto 0px;
+    width: 100%;
+    border: none;
+    background-color: rgb(48 151 146);
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.flight-search-container .checkFlight.disabled-true {
+    color: #fff !important;
+    background: rgb(48 151 146 / 62%) !important;
+    cursor: not-allowed !important;
+} 
+/* flight-information card css */
+
+.chatFlightInformation .tab-nav{
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    height: 100%;
+    margin: 0 32px 0 0;
+    padding: 12px 16px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: color .3s cubic-bezier(.645,.045,.355,1);
+    font-size: 16px !important;
+    text-transform: none;
+}
+
+.chatFlightInformation .tab-nav:hover {
+    color: #17a99e;
+}
+
+.chatFlightInformation .tab-nav.Mui-selected {
+    color: #226164;
+}
+
+.chatFlightInformation .css-1qltlow-MuiTabs-indicator {
+    background-color: #226164;
+}
+
+.chatFlightInformation .css-1gsv261{
+    border: unset
+}
+
+.chatFlightInformation .tabPanel{
+    padding: 8px 0px;
+}
+
+.chatFlightInformation .searchBox{
+    margin-bottom: 8px;
+    display: flex;
+}
+
+.chatFlightInformation .searchBox .form-control{
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;    
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    border-radius: 10px !important;
+}
+
+.chatFlightInformation .searchBox .form-control:focus {
+    border-color: #66afe9;
+    outline: 0;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
+}
+
+.chatFlightInformation .flight-list{
+    overflow-y: scroll;
+    max-height: 360px;
+}
+
+.chatFlightInformation .flight-list .flight-card{
+    position: relative;
+    max-width: 286px;
+    min-width: 270px;
+    height: 191px;
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #99d298;
+    cursor: pointer;
+}
+
+.chatFlightInformation .flight-list .flight-card header{
+    background: #226164;
+    padding: 5px 20px 5px 15px;
+    height: 40px;
+}
+
+.chatFlightInformation .flight-list .airline-name{
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.chatFlightInformation .airlineNo{
+    float: right;
+    color: #fff;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    margin-top: -4px;
+}
+
+.chatFlightInformation .airlineNo small{
+    font-size: 8px;
+    color: #fff;
+}
+
+.chatFlightInformation .airlineNo strong{
+    font-size: 18px;
+}
+
+.chatFlightInformation .status-bar{
+    background: #0a9132;
+    height: 18px;
+    text-align: center;
+    border: #0a9132;
+    font-size: 14px;
+    color: white;
+}
+
+.chatFlightInformation .status-bar.ONTIME, .chatFlightInformation .status-bar.SECURITY, .chatFlightInformation .status-bar.DELAYED{
+    background-color: rgb(0, 181, 173);
+}
+
+.chatFlightInformation .status-bar.CANCELLED, .chatFlightInformation .status-bar.GATECLOSED, .chatFlightInformation .status-bar.BOARDING, .chatFlightInformation .status-bar.FINALCALL{
+    background-color: rgb(208, 2, 27);
+}
+
+.chatFlightInformation .cities{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.chatFlightInformation .city{
+    padding: 5px 6px 0 20px;
+    float: left;
+    height: 48px;
+}
+
+.chatFlightInformation .city small{
+    display: block;
+    font-size: 10px;
+    color: #a2a9b3;
+    text-wrap: nowrap;
+}
+
+.chatFlightInformation .city strong{
+    display: block;
+    color: #606060;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 1;
+    text-align: center;
+}
+
+.airplane{
+    position: absolute;
+    width: 45px;
+    top: 57%;
+    left: 30%;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+    animation: 3s infinite move;
+}
+
+.flight-card .terminals{
+    display: flex;
+    border-top: 1px solid #99d298;
+    height: 42px;
+}
+
+.flight-card .departure, .timingBox .scheduled{
+    background: #ececec;
+    border-right: 1px solid #99d298;
+    border-left: 1px solid #99d298;
+    border-bottom: 1px solid #99d298;
+    width: 50%;
+    padding: 1px 0;
+}
+
+.flight-card .arrival, .timingBox .estimated{
+    width: 50%;
+    padding: 1px 0;
+}
+
+.terminals .arrival, .timingBox .estimated{
+    border-right: 1px solid #99d298;
+    border-left: 1px solid #99d298;
+    border-bottom: 1px solid #99d298;
+}
+
+.timingBox .estimated, .timingBox .scheduled{
+    padding: 1px 0 5px 13px;
+}
+
+.flight-card .departure .box, .flight-card .arrival .box {
+    float: left;
+    padding: 1px 0 5px 13px;
+    width: 50%;
+}
+
+.flight-card .departure .box small, .flight-card .arrival .box small, .timingBox .scheduled small, .timingBox .estimated small {
+    font-size: 10px;
+    color: #97a1ad;
+    display: block;
+}
+
+.flight-card .departure .box strong, .flight-card .arrival .box strong, .timingBox .scheduled strong, .timingBox .estimated strong{
+    color: #239422;
+    transform: scale(.9);
+    transform-origin: left bottom;
+    display: block;
+    font-size: 14px;
+}
+
+.flight-card .arrival .box strong,.timingBox .estimated strong{
+    color: #97a1ad;
+}
+
+.timingBox{
+    display: flex
+}
+
+@media (max-width: 350px) {
+    .chat-text.chatFlightInformation{
+        width: 90%;
+        overflow-x: scroll;
+    }     
+}
+
+@media (min-width: 351px) {
+    .chat-text.chatFlightInformation{
+        width: 315px;
+    }     
+}
+
+@keyframes move{
+    40%{left:50%;opacity:1}
+    100%{left:70%;opacity:0}
+}

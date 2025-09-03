@@ -1,0 +1,210 @@
+.user-info-container {
+  width: 100%;
+  padding-bottom: 2rem;
+  background-color: #273135;
+}
+
+.user-info-container .back-to-profile {
+  padding-left: 20.6rem;
+  padding-top: 3.5rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+.user-info-container .back-to-profile:before {
+  background-image: url("../../../assets/images/profile/arrow-right.svg");
+  /* transform: rotate(180deg); */
+}
+
+.user-info-container .back-to-profile:before {
+  content: "";
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  height: 20px;
+  margin-right: 4px;
+  vertical-align: middle;
+  width: 20px;
+}
+
+.user-info-container .user-info-wrapper {
+  /* padding: 3rem 15rem 1rem 15rem; */
+  padding: 4.5rem 15rem 1rem 15rem;
+}
+
+.user-info-container .user-info-wrapper-edit {
+  /* padding: 2rem 15rem 0rem 21rem; */
+  padding: 2rem 15rem 2rem 21rem;
+  /* padding: 2rem ; */
+}
+
+.user-info-container .user-info {
+  display: flex;
+}
+
+.user-info-container .user-info-edit {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-info-container .user-image {
+  /* width: 140px;
+  height: 140px; */
+  width: 120px;
+  height: 120px;
+  border-radius: 120px;
+}
+
+.user-info-container .user-data-container {
+  display: flex;
+  flex-direction: column;
+  /* padding: 30px 0px 0px 0px; */
+}
+
+.user-info-container .user-name {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 38px;
+  color: #ffffff;
+}
+
+.user-info-container .user-mobile-email {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 29px;
+  color: #ffffff;
+  margin-top: 4px;
+}
+
+.user-info-container .user-image-container {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 120px;
+  margin-right: 24px;
+  width: 120px;
+  height: 120px;
+}
+
+.user-info-container .profile-progress-bar {
+  margin-top: 10px;
+}
+
+.user-info-container .complete-profile-link {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #04adaa;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.user-info-container .complete-profile-link:after {
+  background-image: url("../../../assets/images/profile/rightArrowGreen.svg");
+}
+
+.user-info-container .complete-profile-link:after {
+  content: "";
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  height: 20px;
+  margin-left: 4px;
+  vertical-align: middle;
+  width: 20px;
+}
+
+.user-info-container .edit-profile-link {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #04adaa;
+  cursor: pointer;
+  padding-top: 8px;
+}
+
+@media screen and (max-width: 767px) {
+  .user-info-container {
+    padding-bottom: 58px;
+  }
+  .user-info-container .back-to-profile {
+    padding-left: 20px;
+    padding-top: 25px;
+    color: #fff;
+  }
+  .user-info-container .user-info-wrapper {
+    padding: 2rem 1rem 0rem 1rem;
+  }
+  .user-info-container .user-info-wrapper-edit {
+    padding: 1rem 1rem 0rem 1rem;
+  }
+  .user-info-container .user-image {
+    /* width: 120px;
+    height: 100px; */
+    /* width: 140px;
+    height: 140px; */
+    width: 120px;
+    height: 120px;
+  }
+  .user-info-container .user-name {
+    font-size: 24px;
+  }
+  .user-info-container .user-mobile-email {
+    font-size: 18px;
+  }
+  .user-info-container .profile-progress-bar {
+    width: 180px;
+  }
+  .user-info-container .complete-profile-link {
+    font-size: 14px;
+  }
+  .user-info-container .user-data-container {
+    /* padding-top: 12px !important; */
+    padding-top: 28px !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .user-info-container {
+    padding-bottom: 2rem;
+  }
+  .user-info-container .back-to-profile {
+    padding-left: 5rem;
+    color: #fff;
+  }
+  .user-info-container .user-info-wrapper {
+    padding: 2rem 5rem 0rem 5rem;
+  }
+  .user-info-container .user-info-wrapper-edit {
+    padding: 1rem 5rem 0rem 5rem;
+  }
+}
+
+.user-info-container .hide {
+  display: none;
+}
+
+/* OVERRIDES */
+.user-info-container .profile-progress-bar {
+  width: 200px;
+}
+
+.user-info-container .css-eglki6-MuiLinearProgress-root {
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.user-info-container .css-5xe99f-MuiLinearProgress-bar1 {
+  background-color: #04adaa;
+}

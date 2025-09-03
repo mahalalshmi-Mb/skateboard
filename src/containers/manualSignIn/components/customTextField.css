@@ -1,0 +1,10 @@
+.custom-textField {
+  width: 260px;
+  margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+  .custom-textField {
+    width: 400px;
+  }
+}

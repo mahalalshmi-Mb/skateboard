@@ -1,0 +1,9 @@
+body .uwy {
+  z-index: 10 !important;
+}
+
+@media screen and (min-width: 1024px) {
+  body .uwy {
+    z-index: 9999 !important;
+  }
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>facebook</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Footer" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-172.000000, -85.000000)">
+            <g id="facebook" transform="translate(172.000000, 85.000000)">
+                <rect id="Rectangle" fill="#FFFFFF" opacity="0" x="0" y="0" width="36" height="36"></rect>
+                <circle id="Oval" stroke="#FFFFFF" cx="18" cy="18" r="17.5"></circle>
+                <path d="M15,16.2911111 L16.6537778,16.2911111 L16.6537778,14.684 C16.6537778,13.9746667 16.6715556,12.8813333 17.1862222,12.204 C17.7288889,11.4871111 18.4733333,11 19.7542222,11 C21.8408889,11 22.7195556,11.2973333 22.7195556,11.2973333 L22.3057778,13.7484444 C22.3057778,13.7484444 21.6168889,13.5484444 20.9737778,13.5484444 C20.3302222,13.5484444 19.7542222,13.7791111 19.7542222,14.4222222 L19.7542222,16.2911111 L22.392,16.2911111 L22.208,18.6848889 L19.7542222,18.6848889 L19.7542222,27 L16.6537778,27 L16.6537778,18.6848889 L15,18.6848889 L15,16.2911111" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

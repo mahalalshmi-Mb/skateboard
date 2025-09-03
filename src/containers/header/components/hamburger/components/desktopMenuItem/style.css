@@ -1,0 +1,6 @@
+.desktop-menu-item-wrapper .dropdown-wrapper {
+}
+
+.desktop-menu-item-wrapper .dropdown-wrapper > * {
+  pointer-events: auto;
+}
